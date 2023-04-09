@@ -28,6 +28,9 @@ class BasicProtocolData : public ProtocolData {
     return video_frame_;
   }
 
+  void hconcat_ProtocolData(BasicProtocolData Protocal_data);
+  void vconcat_ProtocolData(BasicProtocolData Protocal_data);
+
  private:
   // The video frame received from the packet is stored here.
   VideoFrame video_frame_;

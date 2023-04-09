@@ -1,5 +1,5 @@
 #include "video/video_frame.h"
-
+#include <iostream>
 #include <string>
 #include <vector>
 
@@ -20,7 +20,7 @@ constexpr int kDisplayDelayTimeMS = 15;
 
 // JPEG compression values.
 static const std::string kJPEGExtension = ".jpg";
-constexpr int kJPEGQuality = 25;
+constexpr int kJPEGQuality = 25;//25
 
 }  // namespace
 
@@ -36,7 +36,12 @@ void VideoFrame::Display() const {
   cv::imshow(kWindowName, frame_image_);
   cv::waitKey(kDisplayDelayTimeMS);
 }
-
+cv::Mat VideoFrame::Frame_image_info() const{
+  return frame_image_;
+}
+void VideoFrame::change_frame(cv::Mat new_Mat){
+  this->frame_image_ = new_Mat;
+}
 std::vector<unsigned char> VideoFrame::GetJPEG() const {
   const std::vector<int> compression_params = {
       cv::IMWRITE_JPEG_QUALITY,
@@ -44,6 +49,7 @@ std::vector<unsigned char> VideoFrame::GetJPEG() const {
   };
   std::vector<unsigned char> data_buffer;
   cv::imencode(kJPEGExtension, frame_image_, data_buffer, compression_params);
+  //std::cout<< data_buffer.size() <<std::endl;
   return data_buffer;
 }
 
