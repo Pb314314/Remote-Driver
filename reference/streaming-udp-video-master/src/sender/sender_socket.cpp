@@ -14,7 +14,7 @@ SenderSocket::SenderSocket(
 
   socket_handle_ = socket(AF_INET, SOCK_DGRAM, 0);
   receiver_addr_.sin_family = AF_INET;
-  receiver_addr_.sin_port = htons(receiver_port);
+  receiver_addr_.sin_port = htons(receiver_port);//human number to network number
   receiver_addr_.sin_addr.s_addr = inet_addr(receiver_ip.c_str());
 }
 
