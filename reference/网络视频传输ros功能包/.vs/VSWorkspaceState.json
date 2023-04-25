@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\video_client_socket",
+    "\\video_client_socket\\src",
+    "\\video_socket_read",
+    "\\video_socket_read\\src"
+  ],
+  "SelectedNode": "\\video_client_socket\\src\\video_socket_write.cpp",
+  "PreviewInSolutionExplorer": false
+}
