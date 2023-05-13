@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2023-04-22 10:00:58,598: init_node, name[/rostopic_1407_1682128858511], pid[1407]
+[xmlrpc][INFO] 2023-04-22 10:00:58,600: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-22 10:00:58,601: Started XML-RPC server [http://localhost:46533/]
+[rospy.init][INFO] 2023-04-22 10:00:58,602: ROS Slave URI: [http://localhost:46533/]
+[rospy.impl.masterslave][INFO] 2023-04-22 10:00:58,602: _ready: http://localhost:46533/
+[rospy.registration][INFO] 2023-04-22 10:00:58,604: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-22 10:00:58,604: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-22 10:00:58,703: registered with master
+[rospy.internal][INFO] 2023-04-22 10:00:58,757: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0
+[rospy.core][INFO] 2023-04-22 10:01:02,310: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-22 10:01:02,323: topic[/cmd_vel] removing connection to /turtlebot3_core
+[rospy.impl.masterslave][INFO] 2023-04-22 10:01:02,325: signal-2
+[rospy.core][INFO] 2023-04-22 10:01:02,426: signal_shutdown [atexit]

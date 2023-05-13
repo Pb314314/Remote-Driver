@@ -1,0 +1,95 @@
+[rosmaster.main][INFO] 2023-04-21 21:45:09,089: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2023-04-21 21:45:09,090: Starting ROS Master Node
+[xmlrpc][INFO] 2023-04-21 21:45:09,092: XML-RPC server binding to 127.0.0.1:11311
+[rosmaster.master][INFO] 2023-04-21 21:45:09,094: Master initialized: port[11311], uri[http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-21 21:45:09,094: Started XML-RPC server [http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-21 21:45:09,095: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-21 21:45:09,155: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-21 21:45:09,161: +PARAM [/roslaunch/uris/host_localhost__43187] by /roslaunch
+[rosmaster.master][INFO] 2023-04-21 21:45:09,345: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-21 21:45:09,346: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-21 21:45:09,590: +SERVICE [/rosout/get_loggers] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 21:45:09,593: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 21:45:09,601: +PUB [/rosout_agg] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 21:45:09,621: +SUB [/rosout] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 21:45:42,454: +PUB [/chatter] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:45:42,550: +PUB [/rosout] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:45:42,563: +SERVICE [/talker_2263_1682084742360/get_loggers] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:45:42,568: +SERVICE [/talker_2263_1682084742360/set_logger_level] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:45:42,647: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:42375/']
+[rosmaster.master][INFO] 2023-04-21 21:45:42,654: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:42375/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:46:11,461: -PUB [/chatter] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:46:11,462: -PUB [/rosout] /talker_2263_1682084742360 http://localhost:42375/
+[rosmaster.master][INFO] 2023-04-21 21:46:11,464: -SERVICE [/talker_2263_1682084742360/get_loggers] /talker_2263_1682084742360 rosrpc://localhost:46559
+[rosmaster.master][INFO] 2023-04-21 21:46:11,465: -SERVICE [/talker_2263_1682084742360/set_logger_level] /talker_2263_1682084742360 rosrpc://localhost:46559
+[rosmaster.master][INFO] 2023-04-21 21:46:11,504: publisherUpdate[/rosout] -> http://localhost:39625/ []
+[rosmaster.master][INFO] 2023-04-21 21:46:11,509: publisherUpdate[/rosout] -> http://localhost:39625/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:47:29,610: +PUB [/chatter] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:47:29,705: +PUB [/rosout] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:47:29,718: +SERVICE [/talker_2405_1682084849514/get_loggers] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:47:29,724: +SERVICE [/talker_2405_1682084849514/set_logger_level] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:47:29,739: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:34441/']
+[rosmaster.master][INFO] 2023-04-21 21:47:29,742: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:34441/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:47:42,778: +PUB [/rosout] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:47:42,791: +SERVICE [/listener_2427_1682084862584/get_loggers] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:47:42,797: +SERVICE [/listener_2427_1682084862584/set_logger_level] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:47:42,807: +SUB [/chatter] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:47:42,865: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:34441/', 'http://localhost:36021/']
+[rosmaster.master][INFO] 2023-04-21 21:47:42,868: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:34441/', 'http://localhost:36021/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:48:01,260: -PUB [/chatter] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:48:01,262: -PUB [/rosout] /talker_2405_1682084849514 http://localhost:34441/
+[rosmaster.master][INFO] 2023-04-21 21:48:01,263: -SERVICE [/talker_2405_1682084849514/get_loggers] /talker_2405_1682084849514 rosrpc://localhost:38523
+[rosmaster.master][INFO] 2023-04-21 21:48:01,264: -SERVICE [/talker_2405_1682084849514/set_logger_level] /talker_2405_1682084849514 rosrpc://localhost:38523
+[rosmaster.master][INFO] 2023-04-21 21:48:01,302: publisherUpdate[/chatter] -> http://localhost:36021/ []
+[rosmaster.master][INFO] 2023-04-21 21:48:01,306: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:36021/']
+[rosmaster.master][INFO] 2023-04-21 21:48:01,313: publisherUpdate[/chatter] -> http://localhost:36021/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:48:01,315: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:36021/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:48:09,227: -SUB [/chatter] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:48:09,229: publisherUpdate[/rosout] -> http://localhost:39625/ []
+[rosmaster.master][INFO] 2023-04-21 21:48:09,231: -PUB [/rosout] /listener_2427_1682084862584 http://localhost:36021/
+[rosmaster.master][INFO] 2023-04-21 21:48:09,233: publisherUpdate[/rosout] -> http://localhost:39625/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:48:09,235: -SERVICE [/listener_2427_1682084862584/get_loggers] /listener_2427_1682084862584 rosrpc://localhost:37825
+[rosmaster.master][INFO] 2023-04-21 21:48:09,237: -SERVICE [/listener_2427_1682084862584/set_logger_level] /listener_2427_1682084862584 rosrpc://localhost:37825
+[rosmaster.master][INFO] 2023-04-21 21:55:53,364: +PUB [/chatter] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:55:53,459: +PUB [/rosout] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:55:53,472: +SERVICE [/talker_2458_1682085353270/get_loggers] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:55:53,472: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:35177/']
+[rosmaster.master][INFO] 2023-04-21 21:55:53,476: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:35177/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:55:53,482: +SERVICE [/talker_2458_1682085353270/set_logger_level] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:56:31,641: -PUB [/chatter] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:56:31,643: -PUB [/rosout] /talker_2458_1682085353270 http://localhost:35177/
+[rosmaster.master][INFO] 2023-04-21 21:56:31,644: publisherUpdate[/rosout] -> http://localhost:39625/ []
+[rosmaster.master][INFO] 2023-04-21 21:56:31,649: publisherUpdate[/rosout] -> http://localhost:39625/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:56:31,647: -SERVICE [/talker_2458_1682085353270/get_loggers] /talker_2458_1682085353270 rosrpc://localhost:37729
+[rosmaster.master][INFO] 2023-04-21 21:56:31,652: -SERVICE [/talker_2458_1682085353270/set_logger_level] /talker_2458_1682085353270 rosrpc://localhost:37729
+[rosmaster.master][INFO] 2023-04-21 21:57:21,741: +PUB [/chatter] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:57:21,837: +PUB [/rosout] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:57:21,839: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:35779/']
+[rosmaster.master][INFO] 2023-04-21 21:57:21,842: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:35779/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:57:21,854: +SERVICE [/talker_2490_1682085441646/get_loggers] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:57:21,860: +SERVICE [/talker_2490_1682085441646/set_logger_level] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:58:25,336: -PUB [/chatter] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:58:25,337: -PUB [/rosout] /talker_2490_1682085441646 http://localhost:35779/
+[rosmaster.master][INFO] 2023-04-21 21:58:25,338: -SERVICE [/talker_2490_1682085441646/set_logger_level] /talker_2490_1682085441646 rosrpc://localhost:43107
+[rosmaster.master][INFO] 2023-04-21 21:58:25,339: -SERVICE [/talker_2490_1682085441646/get_loggers] /talker_2490_1682085441646 rosrpc://localhost:43107
+[rosmaster.master][INFO] 2023-04-21 21:58:25,366: publisherUpdate[/rosout] -> http://localhost:39625/ []
+[rosmaster.master][INFO] 2023-04-21 21:58:25,371: publisherUpdate[/rosout] -> http://localhost:39625/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:58:52,368: +PUB [/chatter] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:58:52,464: +PUB [/rosout] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:58:52,477: +SERVICE [/talker1/get_loggers] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:58:52,482: +SERVICE [/talker1/set_logger_level] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:58:52,517: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:42265/']
+[rosmaster.master][INFO] 2023-04-21 21:58:52,520: publisherUpdate[/rosout] -> http://localhost:39625/ ['http://localhost:42265/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:59:01,333: -PUB [/chatter] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:59:01,334: -PUB [/rosout] /talker1 http://localhost:42265/
+[rosmaster.master][INFO] 2023-04-21 21:59:01,336: publisherUpdate[/rosout] -> http://localhost:39625/ []
+[rosmaster.master][INFO] 2023-04-21 21:59:01,337: -SERVICE [/talker1/set_logger_level] /talker1 rosrpc://localhost:36721
+[rosmaster.master][INFO] 2023-04-21 21:59:01,342: publisherUpdate[/rosout] -> http://localhost:39625/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-21 21:59:01,343: -SERVICE [/talker1/get_loggers] /talker1 rosrpc://localhost:36721
+[rosmaster.master][INFO] 2023-04-21 23:13:14,906: -PUB [/rosout_agg] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 23:13:14,909: -SUB [/rosout] /rosout http://localhost:39625/
+[rosmaster.master][INFO] 2023-04-21 23:13:14,913: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:59011
+[rosmaster.master][INFO] 2023-04-21 23:13:14,917: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:59011
+[rosmaster.main][INFO] 2023-04-21 23:13:15,089: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2023-04-21 23:13:15,089: stopping master...
+[rospy.core][INFO] 2023-04-21 23:13:15,090: signal_shutdown [atexit]

@@ -10,6 +10,7 @@ namespace util {
 // something goes wrong, -1 will be returned. Otherwise, if a valid port number
 // was provided, that number will be returned as an int.
 int ProcessPortParam(int argc, char** argv);
+std::vector<int> Sender_ProcessPortParam(int argc, char** argv);
 
 }  // namespace util
 }  // namespace udp_streaming_video

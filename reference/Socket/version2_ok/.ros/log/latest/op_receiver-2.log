@@ -1,0 +1,13 @@
+[rospy.client][INFO] 2023-05-08 20:23:58,759: init_node, name[/op_receiver], pid[1035]
+[xmlrpc][INFO] 2023-05-08 20:23:58,761: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-05-08 20:23:58,762: Started XML-RPC server [http://localhost:44277/]
+[rospy.init][INFO] 2023-05-08 20:23:58,763: ROS Slave URI: [http://localhost:44277/]
+[rospy.impl.masterslave][INFO] 2023-05-08 20:23:58,763: _ready: http://localhost:44277/
+[rospy.registration][INFO] 2023-05-08 20:23:58,766: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-05-08 20:23:58,767: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-05-08 20:23:58,864: registered with master
+[rospy.rosout][INFO] 2023-05-08 20:23:58,865: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-05-08 20:23:58,879: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-05-08 20:23:58,885: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-05-08 20:23:59,069: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-05-08 20:24:04,627: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0

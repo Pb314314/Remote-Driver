@@ -1,0 +1,86 @@
+[rospy.client][INFO] 2023-04-26 22:35:58,590: init_node, name[/op_receiver], pid[1173]
+[xmlrpc][INFO] 2023-04-26 22:35:58,591: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:35:58,593: Started XML-RPC server [http://localhost:39123/]
+[rospy.init][INFO] 2023-04-26 22:35:58,593: ROS Slave URI: [http://localhost:39123/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:35:58,594: _ready: http://localhost:39123/
+[rospy.registration][INFO] 2023-04-26 22:35:58,597: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:35:58,597: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:35:58,695: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:35:58,695: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:35:58,708: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:35:58,714: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-26 22:35:59,017: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-26 22:36:04,476: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0
+[rospy.core][INFO] 2023-04-26 22:36:14,704: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-26 22:36:14,730: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-26 22:36:14,733: topic[/cmd_vel] removing connection to /turtlebot3_core
+[rospy.impl.masterslave][INFO] 2023-04-26 22:36:14,735: signal-2
+[rospy.core][INFO] 2023-04-26 22:36:14,838: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-26 22:36:25,773: init_node, name[/op_receiver], pid[1311]
+[xmlrpc][INFO] 2023-04-26 22:36:25,775: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:36:25,776: Started XML-RPC server [http://localhost:43331/]
+[rospy.init][INFO] 2023-04-26 22:36:25,777: ROS Slave URI: [http://localhost:43331/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:36:25,777: _ready: http://localhost:43331/
+[rospy.registration][INFO] 2023-04-26 22:36:25,780: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:36:25,780: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:36:25,878: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:36:25,879: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:36:25,893: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:36:25,902: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-26 22:36:26,103: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-26 22:36:30,856: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0
+[rosout][INFO] 2023-04-26 22:36:41,661: Connected to host
+[rospy.core][INFO] 2023-04-26 22:37:00,522: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-26 22:37:00,553: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-26 22:37:00,555: topic[/cmd_vel] removing connection to /turtlebot3_core
+[rospy.impl.masterslave][INFO] 2023-04-26 22:37:00,558: signal-2
+[rospy.core][INFO] 2023-04-26 22:37:00,677: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-26 22:37:48,066: init_node, name[/op_receiver], pid[1396]
+[xmlrpc][INFO] 2023-04-26 22:37:48,068: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:37:48,069: Started XML-RPC server [http://localhost:39119/]
+[rospy.init][INFO] 2023-04-26 22:37:48,069: ROS Slave URI: [http://localhost:39119/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:37:48,070: _ready: http://localhost:39119/
+[rospy.registration][INFO] 2023-04-26 22:37:48,073: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:37:48,073: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:37:48,170: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:37:48,171: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:37:48,182: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:37:48,190: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-26 22:37:48,400: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-26 22:37:53,205: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0
+[rospy.core][INFO] 2023-04-26 22:38:30,371: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-26 22:38:30,385: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-26 22:38:30,386: topic[/cmd_vel] removing connection to /turtlebot3_core
+[rospy.impl.masterslave][INFO] 2023-04-26 22:38:30,387: signal-2
+[rospy.core][INFO] 2023-04-26 22:38:30,523: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-26 22:40:07,958: init_node, name[/op_receiver], pid[1482]
+[xmlrpc][INFO] 2023-04-26 22:40:07,960: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:40:07,961: Started XML-RPC server [http://localhost:42319/]
+[rospy.init][INFO] 2023-04-26 22:40:07,962: ROS Slave URI: [http://localhost:42319/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:40:07,962: _ready: http://localhost:42319/
+[rospy.registration][INFO] 2023-04-26 22:40:07,965: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:40:07,965: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:40:08,063: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:40:08,064: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:40:08,077: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:40:08,083: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-26 22:40:08,228: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2023-04-26 22:40:13,020: topic[/cmd_vel] adding connection to [/turtlebot3_core], count 0
+[rospy.core][INFO] 2023-04-26 22:42:57,169: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-26 22:42:57,183: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-26 22:42:57,184: topic[/cmd_vel] removing connection to /turtlebot3_core
+[rospy.impl.masterslave][INFO] 2023-04-26 22:42:57,185: signal-2
+[rospy.core][INFO] 2023-04-26 22:42:57,304: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-26 22:43:06,902: init_node, name[/op_receiver], pid[1572]
+[xmlrpc][INFO] 2023-04-26 22:43:06,904: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:43:06,905: Started XML-RPC server [http://localhost:35755/]
+[rospy.init][INFO] 2023-04-26 22:43:06,905: ROS Slave URI: [http://localhost:35755/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:43:06,906: _ready: http://localhost:35755/
+[rospy.registration][INFO] 2023-04-26 22:43:06,909: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:43:06,909: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:43:07,007: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:43:07,007: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:43:07,023: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:43:07,031: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.core][INFO] 2023-04-26 22:43:07,140: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:43:07,150: atexit

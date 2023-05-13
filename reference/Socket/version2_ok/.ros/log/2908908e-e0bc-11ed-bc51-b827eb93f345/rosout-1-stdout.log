@@ -1,0 +1,3 @@
+logging to /home/pi/.ros/log/2908908e-e0bc-11ed-bc51-b827eb93f345/rosout.log
+re-publishing aggregated messages to /rosout_agg
+subscribed to /rosout

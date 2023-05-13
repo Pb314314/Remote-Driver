@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2023-04-27 21:06:33,381: init_node, name[/rostopic_2300_1682600793264], pid[2300]
+[xmlrpc][INFO] 2023-04-27 21:06:33,383: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-27 21:06:33,385: Started XML-RPC server [http://localhost:44353/]
+[rospy.init][INFO] 2023-04-27 21:06:33,386: ROS Slave URI: [http://localhost:44353/]
+[rospy.impl.masterslave][INFO] 2023-04-27 21:06:33,387: _ready: http://localhost:44353/
+[rospy.registration][INFO] 2023-04-27 21:06:33,389: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-27 21:06:33,389: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-27 21:06:33,489: registered with master
+[rospy.rosout][INFO] 2023-04-27 21:06:33,491: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-27 21:06:33,503: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-27 21:06:33,514: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-27 21:06:33,619: topic[/battery_state] adding connection to [http://localhost:41265/], count 0
+[rospy.internal][INFO] 2023-04-27 21:06:33,709: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2023-04-27 21:06:34,218: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-27 21:06:34,234: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-27 21:06:34,237: topic[/battery_state] removing connection to http://localhost:41265/
+[rospy.impl.masterslave][INFO] 2023-04-27 21:06:34,239: signal-2
+[rospy.internal][WARNING] 2023-04-27 21:06:34,243: Unknown error initiating TCP/IP socket to localhost:36035 (http://localhost:41265/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 558, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2023-04-27 21:06:34,856: signal_shutdown [atexit]

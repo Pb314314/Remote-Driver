@@ -1,0 +1,43 @@
+[rospy.client][INFO] 2023-04-22 14:35:15,163: init_node, name[/turtlebot3_core], pid[3909]
+[xmlrpc][INFO] 2023-04-22 14:35:15,165: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-22 14:35:15,166: Started XML-RPC server [http://localhost:45041/]
+[rospy.init][INFO] 2023-04-22 14:35:15,167: ROS Slave URI: [http://localhost:45041/]
+[rospy.impl.masterslave][INFO] 2023-04-22 14:35:15,167: _ready: http://localhost:45041/
+[rospy.registration][INFO] 2023-04-22 14:35:15,170: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-22 14:35:15,170: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-22 14:35:15,268: registered with master
+[rospy.rosout][INFO] 2023-04-22 14:35:15,268: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-22 14:35:15,279: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-22 14:35:15,285: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-22 14:35:15,298: ROS Serial Python Node
+[rosout][INFO] 2023-04-22 14:35:15,326: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-22 14:35:15,526: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-22 14:35:17,466: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-22 14:35:17,470: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-22 14:35:17,489: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-22 14:35:17,543: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-22 14:35:17,553: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-22 14:35:17,572: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-22 14:35:17,583: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-22 14:35:17,593: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-22 14:35:17,603: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-22 14:35:20,182: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-22 14:35:20,198: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-22 14:35:20,200: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-22 14:35:20,215: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rosout][INFO] 2023-04-22 14:35:20,230: Setup subscriber on motor_power [std_msgs/Bool]
+[rosout][INFO] 2023-04-22 14:35:20,247: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-22 14:35:20,530: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-22 14:35:20,534: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-22 14:35:20,539: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-22 14:35:20,543: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-22 14:35:20,562: --------------------------
+[rosout][INFO] 2023-04-22 14:35:20,565: Connected to OpenCR board!
+[rosout][INFO] 2023-04-22 14:35:20,569: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-22 14:35:20,573: --------------------------
+[rosout][INFO] 2023-04-22 14:35:20,577: Start Calibration of Gyro
+[rosout][INFO] 2023-04-22 14:35:23,094: Calibration End
+[rosout][INFO] 2023-04-22 14:35:36,443: Send tx stop request
+[rospy.core][INFO] 2023-04-22 14:35:36,446: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-22 14:35:36,480: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-22 14:35:36,481: atexit

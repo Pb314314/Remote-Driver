@@ -1,0 +1,259 @@
+[rospy.client][INFO] 2023-04-26 22:35:58,553: init_node, name[/turtlebot3_core], pid[1172]
+[xmlrpc][INFO] 2023-04-26 22:35:58,554: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:35:58,556: Started XML-RPC server [http://localhost:34263/]
+[rospy.init][INFO] 2023-04-26 22:35:58,557: ROS Slave URI: [http://localhost:34263/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:35:58,557: _ready: http://localhost:34263/
+[rospy.registration][INFO] 2023-04-26 22:35:58,560: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:35:58,561: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:35:58,658: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:35:58,659: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:35:58,668: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:35:58,674: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-26 22:35:58,687: ROS Serial Python Node
+[rosout][INFO] 2023-04-26 22:35:58,724: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-26 22:35:58,914: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-26 22:36:00,881: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:36:00,885: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-26 22:36:00,903: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-26 22:36:01,020: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-26 22:36:01,030: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:36:01,079: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-26 22:36:01,089: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-26 22:36:01,099: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-26 22:36:01,110: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-26 22:36:04,413: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-26 22:36:04,428: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:36:04,430: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:36:04,446: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rospy.internal][INFO] 2023-04-26 22:36:04,456: topic[/cmd_vel] adding connection to [http://localhost:39123/], count 0
+[rosout][INFO] 2023-04-26 22:36:04,470: Setup subscriber on motor_power [std_msgs/Bool]
+[rosout][INFO] 2023-04-26 22:36:04,489: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-26 22:36:04,942: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-26 22:36:04,948: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-26 22:36:04,955: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-26 22:36:04,961: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-26 22:36:04,990: --------------------------
+[rosout][INFO] 2023-04-26 22:36:04,998: Connected to OpenCR board!
+[rosout][INFO] 2023-04-26 22:36:05,005: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-26 22:36:05,012: --------------------------
+[rosout][INFO] 2023-04-26 22:36:05,021: Start Calibration of Gyro
+[rosout][INFO] 2023-04-26 22:36:07,499: Calibration End
+[rosout][INFO] 2023-04-26 22:36:14,709: Send tx stop request
+[rospy.core][INFO] 2023-04-26 22:36:14,712: signal_shutdown [atexit]
+[rospy.internal][WARNING] 2023-04-26 22:36:14,745: Unknown error initiating TCP/IP socket to localhost:46671 (http://localhost:39123/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-26 22:36:14,747: topic[/cmd_vel] removing connection to http://localhost:39123/
+[rospy.internal][INFO] 2023-04-26 22:36:14,806: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-26 22:36:14,809: atexit
+[rospy.client][INFO] 2023-04-26 22:36:25,763: init_node, name[/turtlebot3_core], pid[1310]
+[xmlrpc][INFO] 2023-04-26 22:36:25,765: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:36:25,766: Started XML-RPC server [http://localhost:39597/]
+[rospy.init][INFO] 2023-04-26 22:36:25,767: ROS Slave URI: [http://localhost:39597/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:36:25,768: _ready: http://localhost:39597/
+[xmlrpc][INFO] 2023-04-26 22:36:25,769: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2023-04-26 22:36:25,771: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2023-04-26 22:36:25,868: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:36:25,869: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:36:25,879: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:36:25,886: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-26 22:36:25,912: ROS Serial Python Node
+[rosout][INFO] 2023-04-26 22:36:25,942: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-26 22:36:26,104: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-26 22:36:28,078: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:36:28,081: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-26 22:36:28,100: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-26 22:36:28,165: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-26 22:36:28,175: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:36:28,195: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-26 22:36:28,205: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-26 22:36:28,216: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-26 22:36:28,226: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-26 22:36:30,797: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-26 22:36:30,812: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:36:30,814: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:36:30,830: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rospy.internal][INFO] 2023-04-26 22:36:30,839: topic[/cmd_vel] adding connection to [http://localhost:43331/], count 0
+[rosout][INFO] 2023-04-26 22:36:30,850: Setup subscriber on motor_power [std_msgs/Bool]
+[rosout][INFO] 2023-04-26 22:36:30,868: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-26 22:36:32,151: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-26 22:36:32,158: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-26 22:36:32,164: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-26 22:36:32,171: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-26 22:36:32,184: --------------------------
+[rosout][INFO] 2023-04-26 22:36:32,190: Connected to OpenCR board!
+[rosout][INFO] 2023-04-26 22:36:32,196: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-26 22:36:32,202: --------------------------
+[rosout][INFO] 2023-04-26 22:36:32,209: Start Calibration of Gyro
+[rosout][INFO] 2023-04-26 22:36:34,708: Calibration End
+[rosout][INFO] 2023-04-26 22:37:00,536: Send tx stop request
+[rospy.core][INFO] 2023-04-26 22:37:00,540: signal_shutdown [atexit]
+[rospy.internal][ERROR] 2023-04-26 22:37:00,563: Unable to initiate TCP/IP socket to localhost:41791 (http://localhost:43331/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][INFO] 2023-04-26 22:37:00,610: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2023-04-26 22:37:00,611: topic[/cmd_vel] removing connection to http://localhost:43331/
+[rospy.impl.masterslave][INFO] 2023-04-26 22:37:00,612: atexit
+[rospy.client][INFO] 2023-04-26 22:37:48,052: init_node, name[/turtlebot3_core], pid[1395]
+[xmlrpc][INFO] 2023-04-26 22:37:48,053: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:37:48,055: Started XML-RPC server [http://localhost:42163/]
+[rospy.init][INFO] 2023-04-26 22:37:48,056: ROS Slave URI: [http://localhost:42163/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:37:48,056: _ready: http://localhost:42163/
+[rospy.registration][INFO] 2023-04-26 22:37:48,059: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:37:48,060: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:37:48,157: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:37:48,158: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:37:48,167: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:37:48,176: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-26 22:37:48,206: ROS Serial Python Node
+[rosout][INFO] 2023-04-26 22:37:48,232: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-26 22:37:48,399: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-26 22:37:50,369: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:37:50,372: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-26 22:37:50,392: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-26 22:37:50,477: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-26 22:37:50,496: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:37:50,519: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-26 22:37:50,529: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-26 22:37:50,539: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-26 22:37:50,550: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-26 22:37:53,128: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-26 22:37:53,144: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:37:53,146: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:37:53,162: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rosout][INFO] 2023-04-26 22:37:53,177: Setup subscriber on motor_power [std_msgs/Bool]
+[rospy.internal][INFO] 2023-04-26 22:37:53,190: topic[/cmd_vel] adding connection to [http://localhost:39119/], count 0
+[rosout][INFO] 2023-04-26 22:37:53,198: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-26 22:37:54,444: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-26 22:37:54,451: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-26 22:37:54,457: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-26 22:37:54,464: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-26 22:37:54,477: --------------------------
+[rosout][INFO] 2023-04-26 22:37:54,483: Connected to OpenCR board!
+[rosout][INFO] 2023-04-26 22:37:54,489: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-26 22:37:54,496: --------------------------
+[rosout][INFO] 2023-04-26 22:37:54,502: Start Calibration of Gyro
+[rosout][INFO] 2023-04-26 22:37:57,001: Calibration End
+[rosout][INFO] 2023-04-26 22:38:30,383: Send tx stop request
+[rospy.core][INFO] 2023-04-26 22:38:30,386: signal_shutdown [atexit]
+[rospy.internal][WARNING] 2023-04-26 22:38:30,397: Unknown error initiating TCP/IP socket to localhost:35663 (http://localhost:39119/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2023-04-26 22:38:30,398: topic[/cmd_vel] removing connection to http://localhost:39119/
+[rospy.internal][INFO] 2023-04-26 22:38:30,422: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-26 22:38:30,424: atexit
+[rospy.client][INFO] 2023-04-26 22:40:07,950: init_node, name[/turtlebot3_core], pid[1481]
+[xmlrpc][INFO] 2023-04-26 22:40:07,952: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:40:07,953: Started XML-RPC server [http://localhost:38923/]
+[rospy.init][INFO] 2023-04-26 22:40:07,954: ROS Slave URI: [http://localhost:38923/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:40:07,955: _ready: http://localhost:38923/
+[rospy.registration][INFO] 2023-04-26 22:40:07,958: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:40:07,958: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:40:08,055: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:40:08,056: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:40:08,066: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:40:08,074: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-26 22:40:08,093: ROS Serial Python Node
+[rosout][INFO] 2023-04-26 22:40:08,129: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-26 22:40:08,229: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-26 22:40:10,265: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:40:10,268: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-26 22:40:10,288: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-26 22:40:10,366: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-26 22:40:10,380: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:40:10,398: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-26 22:40:10,408: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-26 22:40:10,418: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-26 22:40:10,428: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-26 22:40:12,946: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-26 22:40:12,960: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:40:12,962: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:40:12,978: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rosout][INFO] 2023-04-26 22:40:12,993: Setup subscriber on motor_power [std_msgs/Bool]
+[rospy.internal][INFO] 2023-04-26 22:40:13,003: topic[/cmd_vel] adding connection to [http://localhost:42319/], count 0
+[rosout][INFO] 2023-04-26 22:40:13,015: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-26 22:40:14,339: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-26 22:40:14,347: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-26 22:40:14,352: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-26 22:40:14,358: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-26 22:40:14,370: --------------------------
+[rosout][INFO] 2023-04-26 22:40:14,375: Connected to OpenCR board!
+[rosout][INFO] 2023-04-26 22:40:14,381: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-26 22:40:14,387: --------------------------
+[rosout][INFO] 2023-04-26 22:40:14,393: Start Calibration of Gyro
+[rosout][INFO] 2023-04-26 22:40:16,896: Calibration End
+[rosout][INFO] 2023-04-26 22:42:57,171: Send tx stop request
+[rospy.core][INFO] 2023-04-26 22:42:57,175: signal_shutdown [atexit]
+[rospy.internal][WARNING] 2023-04-26 22:42:57,189: Unknown error initiating TCP/IP socket to localhost:36507 (http://localhost:42319/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-26 22:42:57,190: topic[/cmd_vel] removing connection to http://localhost:42319/
+[rospy.internal][INFO] 2023-04-26 22:42:57,220: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-26 22:42:57,221: atexit
+[rospy.client][INFO] 2023-04-26 22:43:06,879: init_node, name[/turtlebot3_core], pid[1571]
+[xmlrpc][INFO] 2023-04-26 22:43:06,880: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-26 22:43:06,882: Started XML-RPC server [http://localhost:38399/]
+[rospy.init][INFO] 2023-04-26 22:43:06,882: ROS Slave URI: [http://localhost:38399/]
+[rospy.impl.masterslave][INFO] 2023-04-26 22:43:06,883: _ready: http://localhost:38399/
+[rospy.registration][INFO] 2023-04-26 22:43:06,886: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-26 22:43:06,887: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-26 22:43:06,984: registered with master
+[rospy.rosout][INFO] 2023-04-26 22:43:06,985: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-26 22:43:06,994: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-26 22:43:07,000: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-26 22:43:07,014: ROS Serial Python Node
+[rosout][INFO] 2023-04-26 22:43:07,047: Connecting to /dev/ttyACM0 at 57600 baud
+[rospy.internal][INFO] 2023-04-26 22:43:07,264: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-26 22:43:09,187: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:43:09,190: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-26 22:43:09,208: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-26 22:43:09,278: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-26 22:43:09,288: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:43:09,307: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-26 22:43:09,318: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-26 22:43:09,328: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-26 22:43:09,338: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-26 22:43:11,850: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-26 22:43:11,865: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-26 22:43:11,866: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-26 22:43:11,882: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rosout][INFO] 2023-04-26 22:43:11,896: Setup subscriber on motor_power [std_msgs/Bool]
+[rosout][INFO] 2023-04-26 22:43:11,912: Setup subscriber on reset [std_msgs/Empty]
+[rosout][INFO] 2023-04-26 22:43:13,260: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-26 22:43:13,266: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-26 22:43:13,273: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-26 22:43:13,279: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-26 22:43:13,291: --------------------------
+[rosout][INFO] 2023-04-26 22:43:13,297: Connected to OpenCR board!
+[rosout][INFO] 2023-04-26 22:43:13,303: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-26 22:43:13,308: --------------------------
+[rosout][INFO] 2023-04-26 22:43:13,312: Start Calibration of Gyro
+[rosout][INFO] 2023-04-26 22:43:15,818: Calibration End
+[rosout][INFO] 2023-04-26 22:43:20,032: Send tx stop request
+[rospy.core][INFO] 2023-04-26 22:43:20,035: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-26 22:43:20,067: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-26 22:43:20,069: atexit

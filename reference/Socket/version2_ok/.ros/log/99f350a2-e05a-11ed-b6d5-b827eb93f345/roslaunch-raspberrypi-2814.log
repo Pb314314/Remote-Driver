@@ -1,0 +1,90 @@
+[roslaunch][INFO] 2023-04-21 23:38:45,408: Checking log directory for disk usage. This may take awhile.
+Press Ctrl-C to interrupt
+[roslaunch][INFO] 2023-04-21 23:38:45,420: Done checking log file disk usage. Usage is <1GB.
+[roslaunch][INFO] 2023-04-21 23:38:45,420: roslaunch starting with args ['roscore', '--core']
+[roslaunch][INFO] 2023-04-21 23:38:45,422: roslaunch env is {'NO_AT_BRIDGE': '1', 'INFINALITY_FT_FRINGE_FILTER_STRENGTH': '0', 'ROS_DISTRO': 'kinetic', 'ROS_HOSTNAME': 'localhost', 'SSH_CLIENT': '10.107.139.205 4942 22', 'LOGNAME': 'pi', 'USER': 'pi', 'INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH': '0', 'INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH': '10', 'INFINALITY_FT_USE_VARIOUS_TWEAKS': 'true', 'HOME': '/home/pi', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/kinetic/share', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/kinetic/lib', 'INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE': '0', 'LANG': 'en_US.UTF-8', 'TERM': 'screen', 'SHELL': '/bin/bash', 'INFINALITY_FT_STEM_FITTING_STRENGTH': '25', 'LANGUAGE': 'en_US.UTF-8', 'SHLVL': '2', 'INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE': '40', 'INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE': '0', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/99f350a2-e05a-11ed-b6d5-b827eb93f345/roslaunch-raspberrypi-2814.log', 'TEXTDOMAIN': 'Linux-PAM', 'INFINALITY_FT_CONTRAST': '0', 'LDS_MODEL': 'LDS-02', 'TURTLEBOT3_MODEL': 'burger', 'XDG_RUNTIME_DIR': '/run/user/1000', 'INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH': '10', 'INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS': 'true', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'INFINALITY_FT_STEM_ALIGNMENT_STRENGTH': '25', 'TMUX': '/tmp/tmux-1000/default,899,0', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH': '25', 'INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS': 'true', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig', 'LC_ALL': 'en_US.UTF-8', 'INFINALITY_FT_FILTER_PARAMS': '11 22 38 22 11', 'XDG_SESSION_ID': 'c2', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/kinetic/bin/roscore', 'INFINALITY_FT_GAMMA_CORRECTION': '0 100', 'INFINALITY_FT_BRIGHTNESS': '0', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE': '0', 'INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH': '0', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/pi/catkin_ws/devel', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/pi/catkin_ws/devel/share/common-lisp', 'INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE': '0', 'PWD': '/home/pi/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_MASTER_URI': 'http://localhost:11311', 'ROS_VERSION': '1', 'MAIL': '/var/mail/pi', 'SSH_CONNECTION': '10.107.139.205 4942 10.107.84.22 22', 'TMUX_PANE': '%0', 'INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT': '100'}
+[roslaunch][INFO] 2023-04-21 23:38:45,422: starting in server mode
+[roslaunch.parent][INFO] 2023-04-21 23:38:45,423: starting roslaunch parent run
+[roslaunch][INFO] 2023-04-21 23:38:45,424: loading roscore config file /opt/ros/kinetic/etc/ros/roscore.xml
+[roslaunch][INFO] 2023-04-21 23:38:50,183: Added core node of type [rosout/rosout] in namespace [/]
+[roslaunch.pmon][INFO] 2023-04-21 23:38:50,192: start_process_monitor: creating ProcessMonitor
+[roslaunch.pmon][INFO] 2023-04-21 23:38:50,193: created process monitor <ProcessMonitor(ProcessMonitor-1, initial daemon)>
+[roslaunch.pmon][INFO] 2023-04-21 23:38:50,194: start_process_monitor: ProcessMonitor started
+[roslaunch.parent][INFO] 2023-04-21 23:38:50,195: starting parent XML-RPC server
+[roslaunch.server][INFO] 2023-04-21 23:38:50,195: starting roslaunch XML-RPC server
+[roslaunch.server][INFO] 2023-04-21 23:38:50,196: waiting for roslaunch XML-RPC server to initialize
+[xmlrpc][INFO] 2023-04-21 23:38:50,197: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-21 23:38:50,198: Started XML-RPC server [http://localhost:42011/]
+[xmlrpc][INFO] 2023-04-21 23:38:50,199: xml rpc node: starting XML-RPC server
+[roslaunch][INFO] 2023-04-21 23:38:50,212: started roslaunch server http://localhost:42011/
+[roslaunch.parent][INFO] 2023-04-21 23:38:50,213: ... parent XML-RPC server started
+[roslaunch][INFO] 2023-04-21 23:38:50,214: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,219: auto-starting new master
+[roslaunch][INFO] 2023-04-21 23:38:50,219: create_master_process: rosmaster, /opt/ros/kinetic/share/ros, 11311, 3, None
+[roslaunch][INFO] 2023-04-21 23:38:50,220: process[master]: launching with args [['rosmaster', '--core', '-p', '11311', '-w', '3']]
+[roslaunch.pmon][INFO] 2023-04-21 23:38:50,220: ProcessMonitor.register[master]
+[roslaunch.pmon][INFO] 2023-04-21 23:38:50,221: ProcessMonitor.register[master] complete
+[roslaunch][INFO] 2023-04-21 23:38:50,221: process[master]: starting os process
+[roslaunch][INFO] 2023-04-21 23:38:50,221: process[master]: start w/ args [['rosmaster', '--core', '-p', '11311', '-w', '3', '__log:=/home/pi/.ros/log/99f350a2-e05a-11ed-b6d5-b827eb93f345/master.log']]
+[roslaunch][INFO] 2023-04-21 23:38:50,222: process[master]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2023-04-21 23:38:50,231: process[master]: started with pid [2824]
+[roslaunch][INFO] 2023-04-21 23:38:50,232: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,334: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,437: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,539: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,642: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,745: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,848: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:50,950: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:51,052: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:51,155: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:51,161: master.is_running[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:51,166: ROS_MASTER_URI=http://localhost:11311/
+[roslaunch][INFO] 2023-04-21 23:38:51,172: setting /run_id to 99f350a2-e05a-11ed-b6d5-b827eb93f345
+[roslaunch][INFO] 2023-04-21 23:38:51,178: setting /roslaunch/uris/host_localhost__42011' to http://localhost:42011/
+[roslaunch][INFO] 2023-04-21 23:38:51,188: ... preparing to launch node of type [rosout/rosout]
+[roslaunch][INFO] 2023-04-21 23:38:51,189: create_node_process: package[rosout] type[rosout] machine[Machine(name[] env_loader[None] address[localhost] ssh_port[22] user[None] assignable[True] timeout[10.0])] master_uri[http://localhost:11311/]
+[roslaunch][INFO] 2023-04-21 23:38:51,190: process[rosout-1]: env[{'NO_AT_BRIDGE': '1', 'INFINALITY_FT_FRINGE_FILTER_STRENGTH': '0', 'ROS_DISTRO': 'kinetic', 'ROS_HOSTNAME': 'localhost', 'SSH_CLIENT': '10.107.139.205 4942 22', 'LOGNAME': 'pi', 'USER': 'pi', 'INFINALITY_FT_GRAYSCALE_FILTER_STRENGTH': '0', 'INFINALITY_FT_WINDOWS_STYLE_SHARPENING_STRENGTH': '10', 'INFINALITY_FT_USE_VARIOUS_TWEAKS': 'true', 'HOME': '/home/pi', 'CMAKE_PREFIX_PATH': '/home/pi/catkin_ws/devel:/opt/ros/kinetic', 'LD_LIBRARY_PATH': '/home/pi/catkin_ws/devel/lib:/opt/ros/kinetic/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'TERM': 'screen', 'SHELL': '/bin/bash', 'INFINALITY_FT_STEM_FITTING_STRENGTH': '25', 'LANGUAGE': 'en_US.UTF-8', 'SHLVL': '2', 'XDG_SESSION_ID': 'c2', 'INFINALITY_FT_BOLD_EMBOLDEN_Y_VALUE': '0', 'ROS_LOG_FILENAME': '/home/pi/.ros/log/99f350a2-e05a-11ed-b6d5-b827eb93f345/roslaunch-raspberrypi-2814.log', 'TEXTDOMAIN': 'Linux-PAM', 'INFINALITY_FT_CONTRAST': '0', 'LDS_MODEL': 'LDS-02', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'INFINALITY_FT_BOLD_EMBOLDEN_X_VALUE': '0', 'INFINALITY_FT_AUTOHINT_HORIZONTAL_STEM_DARKEN_STRENGTH': '10', 'INFINALITY_FT_USE_KNOWN_SETTINGS_ON_SELECTED_FONTS': 'true', 'PYTHONPATH': '/home/pi/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages', 'INFINALITY_FT_STEM_ALIGNMENT_STRENGTH': '25', 'TMUX': '/tmp/tmux-1000/default,899,0', 'ROS_ROOT': '/opt/ros/kinetic/share/ros', 'PATH': '/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games', 'INFINALITY_FT_AUTOHINT_VERTICAL_STEM_DARKEN_STRENGTH': '25', 'INFINALITY_FT_AUTOHINT_INCREASE_GLYPH_HEIGHTS': 'true', 'PKG_CONFIG_PATH': '/home/pi/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig', 'ROS_PACKAGE_PATH': '/home/pi/catkin_ws/src:/opt/ros/kinetic/share', 'INFINALITY_FT_FILTER_PARAMS': '11 22 38 22 11', 'INFINALITY_FT_STEM_SNAPPING_SLIDING_SCALE': '40', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', '_': '/opt/ros/kinetic/bin/roscore', 'INFINALITY_FT_GAMMA_CORRECTION': '0 100', 'INFINALITY_FT_BRIGHTNESS': '0', 'SSH_CONNECTION': '10.107.139.205 4942 10.107.84.22 22', 'INFINALITY_FT_GLOBAL_EMBOLDEN_Y_VALUE': '0', 'INFINALITY_FT_CHROMEOS_STYLE_SHARPENING_STRENGTH': '0', 'SSH_TTY': '/dev/pts/0', 'OLDPWD': '/home/pi/catkin_ws/devel', 'ROSLISP_PACKAGE_DIRECTORIES': '/home/pi/catkin_ws/devel/share/common-lisp', 'INFINALITY_FT_GLOBAL_EMBOLDEN_X_VALUE': '0', 'PWD': '/home/pi/catkin_ws', 'ROS_ETC_DIR': '/opt/ros/kinetic/etc/ros', 'ROS_MASTER_URI': 'http://localhost:11311/', 'ROS_VERSION': '1', 'MAIL': '/var/mail/pi', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TMUX_PANE': '%0', 'INFINALITY_FT_AUTOHINT_SNAP_STEM_HEIGHT': '100'}]
+[roslaunch][INFO] 2023-04-21 23:38:51,334: process[rosout-1]: args[[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout']]
+[roslaunch][INFO] 2023-04-21 23:38:51,334: ... created process [rosout-1]
+[roslaunch.pmon][INFO] 2023-04-21 23:38:51,335: ProcessMonitor.register[rosout-1]
+[roslaunch.pmon][INFO] 2023-04-21 23:38:51,335: ProcessMonitor.register[rosout-1] complete
+[roslaunch][INFO] 2023-04-21 23:38:51,336: ... registered process [rosout-1]
+[roslaunch][INFO] 2023-04-21 23:38:51,336: process[rosout-1]: starting os process
+[roslaunch][INFO] 2023-04-21 23:38:51,337: process[rosout-1]: start w/ args [[u'/opt/ros/kinetic/lib/rosout/rosout', u'__name:=rosout', u'__log:=/home/pi/.ros/log/99f350a2-e05a-11ed-b6d5-b827eb93f345/rosout-1.log']]
+[roslaunch][INFO] 2023-04-21 23:38:51,337: process[rosout-1]: cwd will be [/home/pi/.ros]
+[roslaunch][INFO] 2023-04-21 23:38:51,347: process[rosout-1]: started with pid [2837]
+[roslaunch][INFO] 2023-04-21 23:38:51,348: ... successfully launched [rosout-1]
+[roslaunch][INFO] 2023-04-21 23:38:51,349: load_parameters starting ...
+[roslaunch][INFO] 2023-04-21 23:38:51,363: ... load_parameters complete
+[roslaunch][INFO] 2023-04-21 23:38:51,363: launch_nodes: launching local nodes ...
+[roslaunch][INFO] 2023-04-21 23:38:51,364: ... launch_nodes complete
+[roslaunch.pmon][INFO] 2023-04-21 23:38:51,364: registrations completed <ProcessMonitor(ProcessMonitor-1, started daemon 1979868272)>
+[roslaunch.parent][INFO] 2023-04-21 23:38:51,365: ... roslaunch parent running, waiting for process exit
+[roslaunch][INFO] 2023-04-21 23:38:51,365: spin
+[roslaunch.pmon][INFO] 2023-04-21 23:59:57,978: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, started daemon 1979868272)>
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,004: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1979868272)>
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,005: ProcessMonitor._post_run <ProcessMonitor(ProcessMonitor-1, started daemon 1979868272)>: remaining procs are [<roslaunch.nodeprocess.LocalProcess object at 0x760282d0>, <roslaunch.nodeprocess.LocalProcess object at 0x76028330>]
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,017: ProcessMonitor exit: killing rosout-1
+[roslaunch][INFO] 2023-04-21 23:59:58,019: [rosout-1] killing on exit
+[roslaunch][INFO] 2023-04-21 23:59:58,020: process[rosout-1]: killing os process with pid[2837] pgid[2837]
+[roslaunch][INFO] 2023-04-21 23:59:58,021: [rosout-1] sending SIGINT to pgid [2837]
+[roslaunch][INFO] 2023-04-21 23:59:58,022: [rosout-1] sent SIGINT to pgid [2837]
+[roslaunch][INFO] 2023-04-21 23:59:58,224: process[rosout-1]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,224: ProcessMonitor exit: killing master
+[roslaunch][INFO] 2023-04-21 23:59:58,225: [master] killing on exit
+[roslaunch][INFO] 2023-04-21 23:59:58,225: process[master]: killing os process with pid[2824] pgid[2824]
+[roslaunch][INFO] 2023-04-21 23:59:58,226: [master] sending SIGINT to pgid [2824]
+[roslaunch][INFO] 2023-04-21 23:59:58,226: [master] sent SIGINT to pgid [2824]
+[roslaunch][INFO] 2023-04-21 23:59:58,427: process[master]: SIGINT killed with return value 0
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,428: ProcessMonitor exit: cleaning up data structures and signals
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,428: ProcessMonitor exit: pmon has shutdown
+[roslaunch][INFO] 2023-04-21 23:59:58,444: process monitor is done spinning, initiating full shutdown
+[roslaunch][INFO] 2023-04-21 23:59:58,445: runner.stop()
+[roslaunch][INFO] 2023-04-21 23:59:58,445: shutting down processing monitor...
+[roslaunch][INFO] 2023-04-21 23:59:58,445: shutting down processing monitor <ProcessMonitor(ProcessMonitor-1, stopped daemon 1979868272)>
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,446: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1979868272)>
+[roslaunch][INFO] 2023-04-21 23:59:58,447: ... shutting down processing monitor complete
+[roslaunch][INFO] 2023-04-21 23:59:58,447: done
+[roslaunch.pmon][INFO] 2023-04-21 23:59:58,448: ProcessMonitor.shutdown <ProcessMonitor(ProcessMonitor-1, stopped daemon 1979868272)>
+[rospy.core][INFO] 2023-04-21 23:59:58,449: signal_shutdown [atexit]

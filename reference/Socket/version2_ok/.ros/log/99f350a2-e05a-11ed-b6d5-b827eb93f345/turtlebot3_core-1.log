@@ -1,0 +1,187 @@
+[rospy.client][INFO] 2023-04-21 23:42:26,427: init_node, name[/turtlebot3_core], pid[3554]
+[xmlrpc][INFO] 2023-04-21 23:42:26,428: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-21 23:42:26,429: Started XML-RPC server [http://localhost:44169/]
+[rospy.init][INFO] 2023-04-21 23:42:26,430: ROS Slave URI: [http://localhost:44169/]
+[rospy.impl.masterslave][INFO] 2023-04-21 23:42:26,430: _ready: http://localhost:44169/
+[rospy.registration][INFO] 2023-04-21 23:42:26,433: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-21 23:42:26,434: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-21 23:42:26,531: registered with master
+[rospy.rosout][INFO] 2023-04-21 23:42:26,532: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-21 23:42:26,541: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-21 23:42:26,547: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2023-04-21 23:42:26,560: ROS Serial Python Node
+[rosout][INFO] 2023-04-21 23:42:26,583: Connecting to /dev/ttyACM0 at 115200 baud
+[rospy.internal][INFO] 2023-04-21 23:42:26,814: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-21 23:42:28,727: Note: publish buffer size is 1024 bytes
+[rosout][INFO] 2023-04-21 23:42:28,730: Setup publisher on sensor_state [turtlebot3_msgs/SensorState]
+[rosout][INFO] 2023-04-21 23:42:28,749: Setup publisher on firmware_version [turtlebot3_msgs/VersionInfo]
+[rosout][INFO] 2023-04-21 23:42:28,876: Setup publisher on imu [sensor_msgs/Imu]
+[rosout][INFO] 2023-04-21 23:42:28,886: Setup publisher on cmd_vel_rc100 [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-21 23:42:28,931: Setup publisher on odom [nav_msgs/Odometry]
+[rosout][INFO] 2023-04-21 23:42:28,941: Setup publisher on joint_states [sensor_msgs/JointState]
+[rosout][INFO] 2023-04-21 23:42:28,951: Setup publisher on battery_state [sensor_msgs/BatteryState]
+[rosout][INFO] 2023-04-21 23:42:28,961: Setup publisher on magnetic_field [sensor_msgs/MagneticField]
+[rosout][INFO] 2023-04-21 23:42:32,903: Setup publisher on /tf [tf/tfMessage]
+[rosout][INFO] 2023-04-21 23:42:32,918: Note: subscribe buffer size is 1024 bytes
+[rosout][INFO] 2023-04-21 23:42:32,920: Setup subscriber on cmd_vel [geometry_msgs/Twist]
+[rosout][INFO] 2023-04-21 23:42:32,935: Setup subscriber on sound [turtlebot3_msgs/Sound]
+[rosout][INFO] 2023-04-21 23:42:32,950: Setup subscriber on motor_power [std_msgs/Bool]
+[rosout][INFO] 2023-04-21 23:42:32,964: Setup subscriber on reset [std_msgs/Empty]
+[rosout][WARNING] 2023-04-21 23:42:32,978: Failed to get param: timeout expired
+[rosout][INFO] 2023-04-21 23:42:32,981: Setup TF on Odometry [odom]
+[rosout][INFO] 2023-04-21 23:42:32,985: Setup TF on IMU [imu_link]
+[rosout][INFO] 2023-04-21 23:42:32,989: Setup TF on MagneticField [mag_link]
+[rosout][INFO] 2023-04-21 23:42:32,992: Setup TF on JointState [base_link]
+[rosout][INFO] 2023-04-21 23:42:32,999: --------------------------
+[rosout][INFO] 2023-04-21 23:42:33,003: Connected to OpenCR board!
+[rosout][INFO] 2023-04-21 23:42:33,006: This core(v1.2.2) is compatible with TB3 Burger
+[rosout][INFO] 2023-04-21 23:42:33,010: --------------------------
+[rosout][INFO] 2023-04-21 23:42:33,014: Start Calibration of Gyro
+[rosout][INFO] 2023-04-21 23:42:35,340: Calibration End
+[rospy.internal][INFO] 2023-04-21 23:43:53,825: topic[/battery_state] adding connection to [/rostopic_3606_1682091833493], count 0
+[rospy.internal][INFO] 2023-04-21 23:43:58,717: topic[/battery_state] removing connection to /rostopic_3606_1682091833493
+[rospy.internal][INFO] 2023-04-21 23:44:47,312: topic[/battery_state] adding connection to [/rostopic_3685_1682091886979], count 0
+[rospy.internal][INFO] 2023-04-21 23:44:48,137: topic[/battery_state] removing connection to /rostopic_3685_1682091886979
+[rospy.internal][INFO] 2023-04-21 23:55:09,368: topic[/cmd_vel] adding connection to [http://localhost:35525/], count 0
+[rospy.internal][ERROR] 2023-04-21 23:55:12,269: Unable to initiate TCP/IP socket to localhost:38973 (http://localhost:35525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2023-04-21 23:55:13,276: Unknown error initiating TCP/IP socket to localhost:38973 (http://localhost:35525/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2023-04-21 23:55:13,279: topic[/cmd_vel] removing connection to http://localhost:35525/
+[rospy.internal][INFO] 2023-04-21 23:55:35,124: topic[/cmd_vel] adding connection to [http://localhost:33355/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:55:38,048: Unknown error initiating TCP/IP socket to localhost:36121 (http://localhost:33355/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:55:38,049: topic[/cmd_vel] removing connection to http://localhost:33355/
+[rospy.internal][INFO] 2023-04-21 23:56:03,985: topic[/cmd_vel] adding connection to [http://localhost:35351/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:56:06,959: Unknown error initiating TCP/IP socket to localhost:36085 (http://localhost:35351/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:56:06,960: topic[/cmd_vel] removing connection to http://localhost:35351/
+[rospy.internal][INFO] 2023-04-21 23:56:20,919: topic[/cmd_vel] adding connection to [http://localhost:33061/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:56:23,842: Unknown error initiating TCP/IP socket to localhost:39931 (http://localhost:33061/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:56:23,843: topic[/cmd_vel] removing connection to http://localhost:33061/
+[rospy.internal][INFO] 2023-04-21 23:56:51,683: topic[/cmd_vel] adding connection to [http://localhost:34029/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:56:54,601: Unknown error initiating TCP/IP socket to localhost:34137 (http://localhost:34029/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:56:54,602: topic[/cmd_vel] removing connection to http://localhost:34029/
+[rospy.internal][INFO] 2023-04-21 23:58:32,752: topic[/cmd_vel] adding connection to [http://localhost:46361/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:58:35,731: Unknown error initiating TCP/IP socket to localhost:40677 (http://localhost:46361/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2023-04-21 23:58:35,732: topic[/cmd_vel] removing connection to http://localhost:46361/
+[rospy.internal][INFO] 2023-04-21 23:58:42,579: topic[/cmd_vel] adding connection to [http://localhost:36019/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:58:45,569: Unknown error initiating TCP/IP socket to localhost:33771 (http://localhost:36019/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:58:45,570: topic[/cmd_vel] removing connection to http://localhost:36019/
+[rospy.internal][INFO] 2023-04-21 23:59:10,229: topic[/cmd_vel] adding connection to [http://localhost:34265/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:59:13,185: Unknown error initiating TCP/IP socket to localhost:39573 (http://localhost:34265/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:59:13,186: topic[/cmd_vel] removing connection to http://localhost:34265/
+[rospy.internal][INFO] 2023-04-21 23:59:20,746: topic[/cmd_vel] adding connection to [http://localhost:36953/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:59:23,713: Unknown error initiating TCP/IP socket to localhost:34591 (http://localhost:36953/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:59:23,714: topic[/cmd_vel] removing connection to http://localhost:36953/
+[rospy.internal][INFO] 2023-04-21 23:59:27,758: topic[/cmd_vel] adding connection to [http://localhost:44601/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:59:30,741: Unknown error initiating TCP/IP socket to localhost:35995 (http://localhost:44601/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:59:30,742: topic[/cmd_vel] removing connection to http://localhost:44601/
+[rospy.internal][INFO] 2023-04-21 23:59:37,189: topic[/cmd_vel] adding connection to [http://localhost:33697/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:59:40,165: Unknown error initiating TCP/IP socket to localhost:39467 (http://localhost:33697/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 364, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.internal][INFO] 2023-04-21 23:59:40,166: topic[/cmd_vel] removing connection to http://localhost:33697/
+[rospy.internal][INFO] 2023-04-21 23:59:45,516: topic[/cmd_vel] adding connection to [http://localhost:46321/], count 0
+[rospy.internal][WARNING] 2023-04-21 23:59:48,412: Unknown error initiating TCP/IP socket to localhost:36773 (http://localhost:46321/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rosgraph/network.py", line 362, in read_ros_handshake_header
+    d = sock.recv(buff_size)
+error: [Errno 104] Connection reset by peer
+
+[rospy.internal][INFO] 2023-04-21 23:59:48,413: topic[/cmd_vel] removing connection to http://localhost:46321/
+[rosout][INFO] 2023-04-21 23:59:53,293: Send tx stop request
+[rospy.core][INFO] 2023-04-21 23:59:53,296: signal_shutdown [atexit]
+[rospy.internal][INFO] 2023-04-21 23:59:53,327: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-21 23:59:53,329: atexit

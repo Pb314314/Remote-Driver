@@ -1,0 +1,10 @@
+[rospy.client][INFO] 2023-04-22 07:54:33,975: init_node, name[/rostopic_1612_1682121273889], pid[1612]
+[xmlrpc][INFO] 2023-04-22 07:54:33,977: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-22 07:54:33,978: Started XML-RPC server [http://localhost:35339/]
+[rospy.init][INFO] 2023-04-22 07:54:33,979: ROS Slave URI: [http://localhost:35339/]
+[rospy.impl.masterslave][INFO] 2023-04-22 07:54:33,980: _ready: http://localhost:35339/
+[rospy.registration][INFO] 2023-04-22 07:54:33,981: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-22 07:54:33,982: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-22 07:54:34,081: registered with master
+[rospy.core][INFO] 2023-04-22 07:54:37,107: signal_shutdown [atexit]
+[rospy.impl.masterslave][INFO] 2023-04-22 07:54:37,119: atexit

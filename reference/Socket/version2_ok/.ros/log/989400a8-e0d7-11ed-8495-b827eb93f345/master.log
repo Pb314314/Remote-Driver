@@ -1,0 +1,64 @@
+[rosmaster.main][INFO] 2023-04-22 14:33:36,024: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2023-04-22 14:33:36,025: Starting ROS Master Node
+[xmlrpc][INFO] 2023-04-22 14:33:36,028: XML-RPC server binding to 127.0.0.1:11311
+[rosmaster.master][INFO] 2023-04-22 14:33:36,029: Master initialized: port[11311], uri[http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-22 14:33:36,029: Started XML-RPC server [http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-22 14:33:36,030: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-22 14:33:36,058: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:33:36,064: +PARAM [/roslaunch/uris/host_localhost__33729] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:33:36,255: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:33:36,256: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:33:36,284: +SERVICE [/rosout/get_loggers] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:33:36,288: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:33:36,296: +PUB [/rosout_agg] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:33:36,317: +SUB [/rosout] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:35:13,993: +PARAM [/roslaunch/uris/host_localhost__42253] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:35:14,007: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:35:14,008: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:35:14,012: +PARAM [/turtlebot3_core/port] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:35:14,013: +PARAM [/turtlebot3_core/tf_prefix] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 14:35:15,276: +PUB [/rosout] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:15,290: +SERVICE [/turtlebot3_core/get_loggers] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:15,296: +SERVICE [/turtlebot3_core/set_logger_level] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:15,312: publisherUpdate[/rosout] -> http://localhost:34007/ ['http://localhost:45041/']
+[rosmaster.master][INFO] 2023-04-22 14:35:15,321: publisherUpdate[/rosout] -> http://localhost:34007/ ['http://localhost:45041/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 14:35:15,331: +PUB [/diagnostics] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,461: +PUB [/sensor_state] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,484: +PUB [/firmware_version] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,540: +PUB [/imu] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,550: +PUB [/cmd_vel_rc100] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,570: +PUB [/odom] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,580: +PUB [/joint_states] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,591: +PUB [/battery_state] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:17,601: +PUB [/magnetic_field] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:20,180: +PUB [/tf] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:20,195: +SUB [/cmd_vel] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:20,213: +SUB [/sound] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:20,228: +SUB [/motor_power] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:20,245: +SUB [/reset] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,462: -SUB [/sound] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,462: -SUB [/motor_power] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,463: -SUB [/cmd_vel] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,464: -SUB [/reset] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,464: -PUB [/firmware_version] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,465: -PUB [/battery_state] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,465: -PUB [/joint_states] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,466: -PUB [/rosout] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,466: -PUB [/tf] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,467: -PUB [/cmd_vel_rc100] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,467: -PUB [/imu] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,467: -PUB [/odom] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,468: -PUB [/diagnostics] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,468: -PUB [/sensor_state] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,469: -PUB [/magnetic_field] /turtlebot3_core http://localhost:45041/
+[rosmaster.master][INFO] 2023-04-22 14:35:36,469: -SERVICE [/turtlebot3_core/set_logger_level] /turtlebot3_core rosrpc://localhost:36799
+[rosmaster.master][INFO] 2023-04-22 14:35:36,470: -SERVICE [/turtlebot3_core/get_loggers] /turtlebot3_core rosrpc://localhost:36799
+[rosmaster.master][INFO] 2023-04-22 14:35:36,552: publisherUpdate[/rosout] -> http://localhost:34007/ []
+[rosmaster.master][INFO] 2023-04-22 14:35:36,555: publisherUpdate[/rosout] -> http://localhost:34007/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 14:37:17,303: -PUB [/rosout_agg] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:37:17,310: -SUB [/rosout] /rosout http://localhost:34007/
+[rosmaster.master][INFO] 2023-04-22 14:37:17,317: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:59211
+[rosmaster.master][INFO] 2023-04-22 14:37:17,324: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:59211
+[rosmaster.main][INFO] 2023-04-22 14:37:17,454: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2023-04-22 14:37:17,454: stopping master...
+[rospy.core][INFO] 2023-04-22 14:37:17,455: signal_shutdown [atexit]

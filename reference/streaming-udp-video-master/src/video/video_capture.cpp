@@ -9,7 +9,14 @@
 namespace udp_streaming_video {
 
 VideoCapture::VideoCapture(const bool show_video, const float scale)
-    : show_video_(show_video), scale_(scale), capture_(cv::VideoCapture(0)) {
+    : show_video_(show_video), scale_(scale), capture_(cv::VideoCapture(1)) {
+
+  // TODO: Verify that the scale is in the appropriate range.
+}
+
+
+VideoCapture::VideoCapture(const bool show_video, const float scale, int camera_index)
+    : show_video_(show_video), scale_(scale), capture_(cv::VideoCapture(camera_index)) {
 
   // TODO: Verify that the scale is in the appropriate range.
 }

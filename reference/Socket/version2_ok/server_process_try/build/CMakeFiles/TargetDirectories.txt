@@ -1,0 +1,3 @@
+/home/pi/server_process_try/build/CMakeFiles/rebuild_cache.dir
+/home/pi/server_process_try/build/CMakeFiles/edit_cache.dir
+/home/pi/server_process_try/build/CMakeFiles/create_P.dir

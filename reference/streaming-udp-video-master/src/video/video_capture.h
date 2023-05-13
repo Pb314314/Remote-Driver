@@ -23,6 +23,7 @@ class VideoCapture {
   // Specify whether or not the video being sent is displayed in a window, and
   // the scale = (0, 1] which will affect the size of the data.
   VideoCapture(const bool show_video, const float scale);
+  VideoCapture(const bool show_video, const float scale, int camera_index);
 
   // Captures and returns a frame from the available video camera.
   //
@@ -34,16 +35,18 @@ class VideoCapture {
   VideoFrame GetFrameFromCamera();
 
  private:
+  
+  // Set to true to show the video.
+  const bool show_video_;
+  
+  // The image scale should be between (0 and 1]. The image will be
+  // downsampled by the given amount to reduce cost of sending the data.
+  const float scale_;
+  
   // The OpenCV camera capture object. This is used to interface with a
   // connected camera and extract frames from it.
   cv::VideoCapture capture_;
 
-  // The image scale should be between (0 and 1]. The image will be
-  // downsampled by the given amount to reduce cost of sending the data.
-  const float scale_;
-
-  // Set to true to show the video.
-  const bool show_video_;
 };
 
 }  // namespace udp_streaming_video

@@ -1,0 +1,161 @@
+[rosmaster.main][INFO] 2023-04-22 11:17:12,322: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2023-04-22 11:17:12,323: Starting ROS Master Node
+[xmlrpc][INFO] 2023-04-22 11:17:12,326: XML-RPC server binding to 127.0.0.1:11311
+[rosmaster.master][INFO] 2023-04-22 11:17:12,327: Master initialized: port[11311], uri[http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-22 11:17:12,327: Started XML-RPC server [http://localhost:11311/]
+[xmlrpc][INFO] 2023-04-22 11:17:12,328: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2023-04-22 11:17:12,393: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 11:17:12,399: +PARAM [/roslaunch/uris/host_localhost__38493] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 11:17:12,587: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 11:17:12,587: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2023-04-22 11:17:12,614: +SERVICE [/rosout/get_loggers] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:17:12,618: +SERVICE [/rosout/set_logger_level] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:17:12,625: +PUB [/rosout_agg] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:17:12,643: +SUB [/rosout] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:17:16,072: +PARAM [/turtlebot3_core/baud] by /turtlebot3_core
+[rosmaster.master][INFO] 2023-04-22 11:17:16,078: +PARAM [/turtlebot3_core/port] by /turtlebot3_core
+[rosmaster.master][INFO] 2023-04-22 11:17:16,085: +PUB [/rosout] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:16,098: +SERVICE [/turtlebot3_core/get_loggers] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:16,104: +SERVICE [/turtlebot3_core/set_logger_level] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:16,133: publisherUpdate[/rosout] -> http://localhost:35715/ ['http://localhost:33931/']
+[rosmaster.master][INFO] 2023-04-22 11:17:16,139: +PUB [/diagnostics] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:16,144: publisherUpdate[/rosout] -> http://localhost:35715/ ['http://localhost:33931/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:17:18,267: +PUB [/sensor_state] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,288: +PUB [/firmware_version] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,356: +PUB [/imu] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,365: +PUB [/cmd_vel_rc100] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,384: +PUB [/odom] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,394: +PUB [/joint_states] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,404: +PUB [/battery_state] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:18,414: +PUB [/magnetic_field] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:20,948: +PUB [/tf] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:20,962: +SUB [/cmd_vel] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:20,979: +SUB [/sound] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:20,994: +SUB [/motor_power] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:17:21,010: +SUB [/reset] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:18:02,336: +SERVICE [/rostopic_2703_1682133482129/get_loggers] /rostopic_2703_1682133482129 http://localhost:32933/
+[rosmaster.master][INFO] 2023-04-22 11:18:02,342: +SERVICE [/rostopic_2703_1682133482129/set_logger_level] /rostopic_2703_1682133482129 http://localhost:32933/
+[rosmaster.master][INFO] 2023-04-22 11:18:02,349: +PUB [/cmd_vel] /rostopic_2703_1682133482129 http://localhost:32933/
+[rosmaster.master][INFO] 2023-04-22 11:18:02,416: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:32933/']
+[rosmaster.master][INFO] 2023-04-22 11:18:02,423: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:32933/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:05,684: -PUB [/cmd_vel] /rostopic_2703_1682133482129 http://localhost:32933/
+[rosmaster.master][INFO] 2023-04-22 11:18:05,685: -SERVICE [/rostopic_2703_1682133482129/set_logger_level] /rostopic_2703_1682133482129 rosrpc://localhost:43873
+[rosmaster.master][INFO] 2023-04-22 11:18:05,686: -SERVICE [/rostopic_2703_1682133482129/get_loggers] /rostopic_2703_1682133482129 rosrpc://localhost:43873
+[rosmaster.master][INFO] 2023-04-22 11:18:05,724: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:18:05,730: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:10,215: +SERVICE [/rostopic_2721_1682133490015/get_loggers] /rostopic_2721_1682133490015 http://localhost:39325/
+[rosmaster.master][INFO] 2023-04-22 11:18:10,222: +SERVICE [/rostopic_2721_1682133490015/set_logger_level] /rostopic_2721_1682133490015 http://localhost:39325/
+[rosmaster.master][INFO] 2023-04-22 11:18:10,228: +PUB [/cmd_vel] /rostopic_2721_1682133490015 http://localhost:39325/
+[rosmaster.master][INFO] 2023-04-22 11:18:10,234: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:39325/']
+[rosmaster.master][INFO] 2023-04-22 11:18:10,241: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:39325/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:13,696: -PUB [/cmd_vel] /rostopic_2721_1682133490015 http://localhost:39325/
+[rosmaster.master][INFO] 2023-04-22 11:18:13,696: -SERVICE [/rostopic_2721_1682133490015/get_loggers] /rostopic_2721_1682133490015 rosrpc://localhost:46711
+[rosmaster.master][INFO] 2023-04-22 11:18:13,697: -SERVICE [/rostopic_2721_1682133490015/set_logger_level] /rostopic_2721_1682133490015 rosrpc://localhost:46711
+[rosmaster.master][INFO] 2023-04-22 11:18:13,743: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:18:13,749: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:18,365: +SERVICE [/rostopic_2738_1682133498164/get_loggers] /rostopic_2738_1682133498164 http://localhost:36377/
+[rosmaster.master][INFO] 2023-04-22 11:18:18,372: +SERVICE [/rostopic_2738_1682133498164/set_logger_level] /rostopic_2738_1682133498164 http://localhost:36377/
+[rosmaster.master][INFO] 2023-04-22 11:18:18,378: +PUB [/cmd_vel] /rostopic_2738_1682133498164 http://localhost:36377/
+[rosmaster.master][INFO] 2023-04-22 11:18:18,453: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:36377/']
+[rosmaster.master][INFO] 2023-04-22 11:18:18,459: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:36377/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:20,975: -PUB [/cmd_vel] /rostopic_2738_1682133498164 http://localhost:36377/
+[rosmaster.master][INFO] 2023-04-22 11:18:20,977: -SERVICE [/rostopic_2738_1682133498164/set_logger_level] /rostopic_2738_1682133498164 rosrpc://localhost:36065
+[rosmaster.master][INFO] 2023-04-22 11:18:20,978: -SERVICE [/rostopic_2738_1682133498164/get_loggers] /rostopic_2738_1682133498164 rosrpc://localhost:36065
+[rosmaster.master][INFO] 2023-04-22 11:18:21,057: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:18:21,063: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:30,966: +SERVICE [/rostopic_2756_1682133510769/get_loggers] /rostopic_2756_1682133510769 http://localhost:40495/
+[rosmaster.master][INFO] 2023-04-22 11:18:30,973: +SERVICE [/rostopic_2756_1682133510769/set_logger_level] /rostopic_2756_1682133510769 http://localhost:40495/
+[rosmaster.master][INFO] 2023-04-22 11:18:30,980: +PUB [/cmd_vel] /rostopic_2756_1682133510769 http://localhost:40495/
+[rosmaster.master][INFO] 2023-04-22 11:18:31,076: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:40495/']
+[rosmaster.master][INFO] 2023-04-22 11:18:31,082: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:40495/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:32,199: -PUB [/cmd_vel] /rostopic_2756_1682133510769 http://localhost:40495/
+[rosmaster.master][INFO] 2023-04-22 11:18:32,201: -SERVICE [/rostopic_2756_1682133510769/set_logger_level] /rostopic_2756_1682133510769 rosrpc://localhost:35955
+[rosmaster.master][INFO] 2023-04-22 11:18:32,202: -SERVICE [/rostopic_2756_1682133510769/get_loggers] /rostopic_2756_1682133510769 rosrpc://localhost:35955
+[rosmaster.master][INFO] 2023-04-22 11:18:32,281: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:18:32,287: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:49,173: +SERVICE [/rostopic_2773_1682133528976/get_loggers] /rostopic_2773_1682133528976 http://localhost:45121/
+[rosmaster.master][INFO] 2023-04-22 11:18:49,182: +SERVICE [/rostopic_2773_1682133528976/set_logger_level] /rostopic_2773_1682133528976 http://localhost:45121/
+[rosmaster.master][INFO] 2023-04-22 11:18:49,189: +PUB [/cmd_vel] /rostopic_2773_1682133528976 http://localhost:45121/
+[rosmaster.master][INFO] 2023-04-22 11:18:49,209: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:45121/']
+[rosmaster.master][INFO] 2023-04-22 11:18:49,215: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:45121/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:18:52,210: -PUB [/cmd_vel] /rostopic_2773_1682133528976 http://localhost:45121/
+[rosmaster.master][INFO] 2023-04-22 11:18:52,211: -SERVICE [/rostopic_2773_1682133528976/set_logger_level] /rostopic_2773_1682133528976 rosrpc://localhost:39657
+[rosmaster.master][INFO] 2023-04-22 11:18:52,213: -SERVICE [/rostopic_2773_1682133528976/get_loggers] /rostopic_2773_1682133528976 rosrpc://localhost:39657
+[rosmaster.master][INFO] 2023-04-22 11:18:52,215: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:18:52,230: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:00,890: +SERVICE [/rostopic_2790_1682133540691/get_loggers] /rostopic_2790_1682133540691 http://localhost:38189/
+[rosmaster.master][INFO] 2023-04-22 11:19:00,897: +SERVICE [/rostopic_2790_1682133540691/set_logger_level] /rostopic_2790_1682133540691 http://localhost:38189/
+[rosmaster.master][INFO] 2023-04-22 11:19:00,903: +PUB [/cmd_vel] /rostopic_2790_1682133540691 http://localhost:38189/
+[rosmaster.master][INFO] 2023-04-22 11:19:00,935: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:38189/']
+[rosmaster.master][INFO] 2023-04-22 11:19:00,941: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:38189/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:03,917: -PUB [/cmd_vel] /rostopic_2790_1682133540691 http://localhost:38189/
+[rosmaster.master][INFO] 2023-04-22 11:19:03,918: -SERVICE [/rostopic_2790_1682133540691/get_loggers] /rostopic_2790_1682133540691 rosrpc://localhost:44315
+[rosmaster.master][INFO] 2023-04-22 11:19:03,918: -SERVICE [/rostopic_2790_1682133540691/set_logger_level] /rostopic_2790_1682133540691 rosrpc://localhost:44315
+[rosmaster.master][INFO] 2023-04-22 11:19:03,942: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:03,947: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:08,732: +SERVICE [/rostopic_2807_1682133548532/get_loggers] /rostopic_2807_1682133548532 http://localhost:38347/
+[rosmaster.master][INFO] 2023-04-22 11:19:08,738: +SERVICE [/rostopic_2807_1682133548532/set_logger_level] /rostopic_2807_1682133548532 http://localhost:38347/
+[rosmaster.master][INFO] 2023-04-22 11:19:08,745: +PUB [/cmd_vel] /rostopic_2807_1682133548532 http://localhost:38347/
+[rosmaster.master][INFO] 2023-04-22 11:19:08,754: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:38347/']
+[rosmaster.master][INFO] 2023-04-22 11:19:08,761: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:38347/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:11,759: -PUB [/cmd_vel] /rostopic_2807_1682133548532 http://localhost:38347/
+[rosmaster.master][INFO] 2023-04-22 11:19:11,760: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:11,760: -SERVICE [/rostopic_2807_1682133548532/set_logger_level] /rostopic_2807_1682133548532 rosrpc://localhost:40407
+[rosmaster.master][INFO] 2023-04-22 11:19:11,762: -SERVICE [/rostopic_2807_1682133548532/get_loggers] /rostopic_2807_1682133548532 rosrpc://localhost:40407
+[rosmaster.master][INFO] 2023-04-22 11:19:11,769: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:16,310: +SERVICE [/rostopic_2824_1682133556108/get_loggers] /rostopic_2824_1682133556108 http://localhost:33663/
+[rosmaster.master][INFO] 2023-04-22 11:19:16,318: +SERVICE [/rostopic_2824_1682133556108/set_logger_level] /rostopic_2824_1682133556108 http://localhost:33663/
+[rosmaster.master][INFO] 2023-04-22 11:19:16,324: +PUB [/cmd_vel] /rostopic_2824_1682133556108 http://localhost:33663/
+[rosmaster.master][INFO] 2023-04-22 11:19:16,369: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:33663/']
+[rosmaster.master][INFO] 2023-04-22 11:19:16,375: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:33663/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:19,346: -PUB [/cmd_vel] /rostopic_2824_1682133556108 http://localhost:33663/
+[rosmaster.master][INFO] 2023-04-22 11:19:19,348: -SERVICE [/rostopic_2824_1682133556108/set_logger_level] /rostopic_2824_1682133556108 rosrpc://localhost:43583
+[rosmaster.master][INFO] 2023-04-22 11:19:19,349: -SERVICE [/rostopic_2824_1682133556108/get_loggers] /rostopic_2824_1682133556108 rosrpc://localhost:43583
+[rosmaster.master][INFO] 2023-04-22 11:19:19,378: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:19,384: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:23,468: +SERVICE [/rostopic_2841_1682133563269/get_loggers] /rostopic_2841_1682133563269 http://localhost:37073/
+[rosmaster.master][INFO] 2023-04-22 11:19:23,474: +SERVICE [/rostopic_2841_1682133563269/set_logger_level] /rostopic_2841_1682133563269 http://localhost:37073/
+[rosmaster.master][INFO] 2023-04-22 11:19:23,481: +PUB [/cmd_vel] /rostopic_2841_1682133563269 http://localhost:37073/
+[rosmaster.master][INFO] 2023-04-22 11:19:23,487: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:37073/']
+[rosmaster.master][INFO] 2023-04-22 11:19:23,493: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:37073/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:26,502: -PUB [/cmd_vel] /rostopic_2841_1682133563269 http://localhost:37073/
+[rosmaster.master][INFO] 2023-04-22 11:19:26,504: -SERVICE [/rostopic_2841_1682133563269/set_logger_level] /rostopic_2841_1682133563269 rosrpc://localhost:34745
+[rosmaster.master][INFO] 2023-04-22 11:19:26,505: -SERVICE [/rostopic_2841_1682133563269/get_loggers] /rostopic_2841_1682133563269 rosrpc://localhost:34745
+[rosmaster.master][INFO] 2023-04-22 11:19:26,593: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:26,599: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:31,119: +SERVICE [/rostopic_2858_1682133570920/get_loggers] /rostopic_2858_1682133570920 http://localhost:40189/
+[rosmaster.master][INFO] 2023-04-22 11:19:31,125: +SERVICE [/rostopic_2858_1682133570920/set_logger_level] /rostopic_2858_1682133570920 http://localhost:40189/
+[rosmaster.master][INFO] 2023-04-22 11:19:31,132: +PUB [/cmd_vel] /rostopic_2858_1682133570920 http://localhost:40189/
+[rosmaster.master][INFO] 2023-04-22 11:19:31,204: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:40189/']
+[rosmaster.master][INFO] 2023-04-22 11:19:31,210: publisherUpdate[/cmd_vel] -> http://localhost:33931/ ['http://localhost:40189/']: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:34,146: -PUB [/cmd_vel] /rostopic_2858_1682133570920 http://localhost:40189/
+[rosmaster.master][INFO] 2023-04-22 11:19:34,147: -SERVICE [/rostopic_2858_1682133570920/get_loggers] /rostopic_2858_1682133570920 rosrpc://localhost:41293
+[rosmaster.master][INFO] 2023-04-22 11:19:34,147: -SERVICE [/rostopic_2858_1682133570920/set_logger_level] /rostopic_2858_1682133570920 rosrpc://localhost:41293
+[rosmaster.master][INFO] 2023-04-22 11:19:34,212: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:34,218: publisherUpdate[/cmd_vel] -> http://localhost:33931/ []: sec=0.01, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:37,647: -SUB [/sound] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,647: -SUB [/motor_power] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,648: -SUB [/cmd_vel] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,648: -SUB [/reset] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,649: -PUB [/firmware_version] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,649: -PUB [/battery_state] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,650: -PUB [/joint_states] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,650: -PUB [/rosout] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,651: -PUB [/tf] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,651: -PUB [/cmd_vel_rc100] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,652: -PUB [/imu] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,652: -PUB [/odom] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,653: -PUB [/diagnostics] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,653: -PUB [/sensor_state] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,654: -PUB [/magnetic_field] /turtlebot3_core http://localhost:33931/
+[rosmaster.master][INFO] 2023-04-22 11:19:37,654: -SERVICE [/turtlebot3_core/set_logger_level] /turtlebot3_core rosrpc://localhost:34397
+[rosmaster.master][INFO] 2023-04-22 11:19:37,655: -SERVICE [/turtlebot3_core/get_loggers] /turtlebot3_core rosrpc://localhost:34397
+[rosmaster.master][INFO] 2023-04-22 11:19:37,720: publisherUpdate[/rosout] -> http://localhost:35715/ []
+[rosmaster.master][INFO] 2023-04-22 11:19:37,722: publisherUpdate[/rosout] -> http://localhost:35715/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2023-04-22 11:19:41,030: -PUB [/rosout_agg] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:19:41,033: -SUB [/rosout] /rosout http://localhost:35715/
+[rosmaster.master][INFO] 2023-04-22 11:19:41,037: -SERVICE [/rosout/get_loggers] /rosout rosrpc://localhost:42365
+[rosmaster.master][INFO] 2023-04-22 11:19:41,040: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://localhost:42365
+[rosmaster.main][INFO] 2023-04-22 11:19:41,181: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2023-04-22 11:19:41,181: stopping master...
+[rospy.core][INFO] 2023-04-22 11:19:41,182: signal_shutdown [atexit]

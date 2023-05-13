@@ -1,0 +1,218 @@
+[rospy.client][INFO] 2023-04-21 21:47:42,666: init_node, name[/listener_2427_1682084862584], pid[2427]
+[xmlrpc][INFO] 2023-04-21 21:47:42,668: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-21 21:47:42,669: Started XML-RPC server [http://localhost:36021/]
+[rospy.init][INFO] 2023-04-21 21:47:42,670: ROS Slave URI: [http://localhost:36021/]
+[rospy.impl.masterslave][INFO] 2023-04-21 21:47:42,670: _ready: http://localhost:36021/
+[rospy.registration][INFO] 2023-04-21 21:47:42,673: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-21 21:47:42,673: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-21 21:47:42,771: registered with master
+[rospy.rosout][INFO] 2023-04-21 21:47:42,772: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-21 21:47:42,781: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-21 21:47:42,786: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-21 21:47:42,844: topic[/chatter] adding connection to [http://localhost:34441/], count 0
+[rosout][INFO] 2023-04-21 21:47:42,929: /listener_2427_1682084862584I heard hello world 1682084862.93
+[rosout][INFO] 2023-04-21 21:47:43,029: /listener_2427_1682084862584I heard hello world 1682084863.03
+[rospy.internal][INFO] 2023-04-21 21:47:43,072: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2023-04-21 21:47:43,129: /listener_2427_1682084862584I heard hello world 1682084863.13
+[rosout][INFO] 2023-04-21 21:47:43,229: /listener_2427_1682084862584I heard hello world 1682084863.23
+[rosout][INFO] 2023-04-21 21:47:43,329: /listener_2427_1682084862584I heard hello world 1682084863.33
+[rosout][INFO] 2023-04-21 21:47:43,429: /listener_2427_1682084862584I heard hello world 1682084863.43
+[rosout][INFO] 2023-04-21 21:47:43,529: /listener_2427_1682084862584I heard hello world 1682084863.53
+[rosout][INFO] 2023-04-21 21:47:43,632: /listener_2427_1682084862584I heard hello world 1682084863.63
+[rosout][INFO] 2023-04-21 21:47:43,737: /listener_2427_1682084862584I heard hello world 1682084863.73
+[rosout][INFO] 2023-04-21 21:47:43,832: /listener_2427_1682084862584I heard hello world 1682084863.83
+[rosout][INFO] 2023-04-21 21:47:43,931: /listener_2427_1682084862584I heard hello world 1682084863.93
+[rosout][INFO] 2023-04-21 21:47:44,031: /listener_2427_1682084862584I heard hello world 1682084864.03
+[rosout][INFO] 2023-04-21 21:47:44,132: /listener_2427_1682084862584I heard hello world 1682084864.13
+[rosout][INFO] 2023-04-21 21:47:44,232: /listener_2427_1682084862584I heard hello world 1682084864.23
+[rosout][INFO] 2023-04-21 21:47:44,332: /listener_2427_1682084862584I heard hello world 1682084864.33
+[rosout][INFO] 2023-04-21 21:47:44,432: /listener_2427_1682084862584I heard hello world 1682084864.43
+[rosout][INFO] 2023-04-21 21:47:44,532: /listener_2427_1682084862584I heard hello world 1682084864.53
+[rosout][INFO] 2023-04-21 21:47:44,631: /listener_2427_1682084862584I heard hello world 1682084864.63
+[rosout][INFO] 2023-04-21 21:47:44,731: /listener_2427_1682084862584I heard hello world 1682084864.73
+[rosout][INFO] 2023-04-21 21:47:44,831: /listener_2427_1682084862584I heard hello world 1682084864.83
+[rosout][INFO] 2023-04-21 21:47:44,932: /listener_2427_1682084862584I heard hello world 1682084864.93
+[rosout][INFO] 2023-04-21 21:47:45,031: /listener_2427_1682084862584I heard hello world 1682084865.03
+[rosout][INFO] 2023-04-21 21:47:45,132: /listener_2427_1682084862584I heard hello world 1682084865.13
+[rosout][INFO] 2023-04-21 21:47:45,231: /listener_2427_1682084862584I heard hello world 1682084865.23
+[rosout][INFO] 2023-04-21 21:47:45,331: /listener_2427_1682084862584I heard hello world 1682084865.33
+[rosout][INFO] 2023-04-21 21:47:45,431: /listener_2427_1682084862584I heard hello world 1682084865.43
+[rosout][INFO] 2023-04-21 21:47:45,531: /listener_2427_1682084862584I heard hello world 1682084865.53
+[rosout][INFO] 2023-04-21 21:47:45,632: /listener_2427_1682084862584I heard hello world 1682084865.63
+[rosout][INFO] 2023-04-21 21:47:45,731: /listener_2427_1682084862584I heard hello world 1682084865.73
+[rosout][INFO] 2023-04-21 21:47:45,831: /listener_2427_1682084862584I heard hello world 1682084865.83
+[rosout][INFO] 2023-04-21 21:47:45,931: /listener_2427_1682084862584I heard hello world 1682084865.93
+[rosout][INFO] 2023-04-21 21:47:46,031: /listener_2427_1682084862584I heard hello world 1682084866.03
+[rosout][INFO] 2023-04-21 21:47:46,133: /listener_2427_1682084862584I heard hello world 1682084866.13
+[rosout][INFO] 2023-04-21 21:47:46,231: /listener_2427_1682084862584I heard hello world 1682084866.23
+[rosout][INFO] 2023-04-21 21:47:46,331: /listener_2427_1682084862584I heard hello world 1682084866.33
+[rosout][INFO] 2023-04-21 21:47:46,431: /listener_2427_1682084862584I heard hello world 1682084866.43
+[rosout][INFO] 2023-04-21 21:47:46,531: /listener_2427_1682084862584I heard hello world 1682084866.53
+[rosout][INFO] 2023-04-21 21:47:46,632: /listener_2427_1682084862584I heard hello world 1682084866.63
+[rosout][INFO] 2023-04-21 21:47:46,731: /listener_2427_1682084862584I heard hello world 1682084866.73
+[rosout][INFO] 2023-04-21 21:47:46,831: /listener_2427_1682084862584I heard hello world 1682084866.83
+[rosout][INFO] 2023-04-21 21:47:46,931: /listener_2427_1682084862584I heard hello world 1682084866.93
+[rosout][INFO] 2023-04-21 21:47:47,032: /listener_2427_1682084862584I heard hello world 1682084867.03
+[rosout][INFO] 2023-04-21 21:47:47,132: /listener_2427_1682084862584I heard hello world 1682084867.13
+[rosout][INFO] 2023-04-21 21:47:47,231: /listener_2427_1682084862584I heard hello world 1682084867.23
+[rosout][INFO] 2023-04-21 21:47:47,332: /listener_2427_1682084862584I heard hello world 1682084867.33
+[rosout][INFO] 2023-04-21 21:47:47,432: /listener_2427_1682084862584I heard hello world 1682084867.43
+[rosout][INFO] 2023-04-21 21:47:47,532: /listener_2427_1682084862584I heard hello world 1682084867.53
+[rosout][INFO] 2023-04-21 21:47:47,631: /listener_2427_1682084862584I heard hello world 1682084867.63
+[rosout][INFO] 2023-04-21 21:47:47,731: /listener_2427_1682084862584I heard hello world 1682084867.73
+[rosout][INFO] 2023-04-21 21:47:47,831: /listener_2427_1682084862584I heard hello world 1682084867.83
+[rosout][INFO] 2023-04-21 21:47:47,931: /listener_2427_1682084862584I heard hello world 1682084867.93
+[rosout][INFO] 2023-04-21 21:47:48,031: /listener_2427_1682084862584I heard hello world 1682084868.03
+[rosout][INFO] 2023-04-21 21:47:48,131: /listener_2427_1682084862584I heard hello world 1682084868.13
+[rosout][INFO] 2023-04-21 21:47:48,231: /listener_2427_1682084862584I heard hello world 1682084868.23
+[rosout][INFO] 2023-04-21 21:47:48,331: /listener_2427_1682084862584I heard hello world 1682084868.33
+[rosout][INFO] 2023-04-21 21:47:48,431: /listener_2427_1682084862584I heard hello world 1682084868.43
+[rosout][INFO] 2023-04-21 21:47:48,531: /listener_2427_1682084862584I heard hello world 1682084868.53
+[rosout][INFO] 2023-04-21 21:47:48,631: /listener_2427_1682084862584I heard hello world 1682084868.63
+[rosout][INFO] 2023-04-21 21:47:48,737: /listener_2427_1682084862584I heard hello world 1682084868.73
+[rosout][INFO] 2023-04-21 21:47:48,831: /listener_2427_1682084862584I heard hello world 1682084868.83
+[rosout][INFO] 2023-04-21 21:47:48,931: /listener_2427_1682084862584I heard hello world 1682084868.93
+[rosout][INFO] 2023-04-21 21:47:49,032: /listener_2427_1682084862584I heard hello world 1682084869.03
+[rosout][INFO] 2023-04-21 21:47:49,132: /listener_2427_1682084862584I heard hello world 1682084869.13
+[rosout][INFO] 2023-04-21 21:47:49,231: /listener_2427_1682084862584I heard hello world 1682084869.23
+[rosout][INFO] 2023-04-21 21:47:49,331: /listener_2427_1682084862584I heard hello world 1682084869.33
+[rosout][INFO] 2023-04-21 21:47:49,431: /listener_2427_1682084862584I heard hello world 1682084869.43
+[rosout][INFO] 2023-04-21 21:47:49,531: /listener_2427_1682084862584I heard hello world 1682084869.53
+[rosout][INFO] 2023-04-21 21:47:49,631: /listener_2427_1682084862584I heard hello world 1682084869.63
+[rosout][INFO] 2023-04-21 21:47:49,731: /listener_2427_1682084862584I heard hello world 1682084869.73
+[rosout][INFO] 2023-04-21 21:47:49,832: /listener_2427_1682084862584I heard hello world 1682084869.83
+[rosout][INFO] 2023-04-21 21:47:49,931: /listener_2427_1682084862584I heard hello world 1682084869.93
+[rosout][INFO] 2023-04-21 21:47:50,031: /listener_2427_1682084862584I heard hello world 1682084870.03
+[rosout][INFO] 2023-04-21 21:47:50,131: /listener_2427_1682084862584I heard hello world 1682084870.13
+[rosout][INFO] 2023-04-21 21:47:50,231: /listener_2427_1682084862584I heard hello world 1682084870.23
+[rosout][INFO] 2023-04-21 21:47:50,331: /listener_2427_1682084862584I heard hello world 1682084870.33
+[rosout][INFO] 2023-04-21 21:47:50,431: /listener_2427_1682084862584I heard hello world 1682084870.43
+[rosout][INFO] 2023-04-21 21:47:50,531: /listener_2427_1682084862584I heard hello world 1682084870.53
+[rosout][INFO] 2023-04-21 21:47:50,631: /listener_2427_1682084862584I heard hello world 1682084870.63
+[rosout][INFO] 2023-04-21 21:47:50,732: /listener_2427_1682084862584I heard hello world 1682084870.73
+[rosout][INFO] 2023-04-21 21:47:50,831: /listener_2427_1682084862584I heard hello world 1682084870.83
+[rosout][INFO] 2023-04-21 21:47:50,931: /listener_2427_1682084862584I heard hello world 1682084870.93
+[rosout][INFO] 2023-04-21 21:47:51,031: /listener_2427_1682084862584I heard hello world 1682084871.03
+[rosout][INFO] 2023-04-21 21:47:51,131: /listener_2427_1682084862584I heard hello world 1682084871.13
+[rosout][INFO] 2023-04-21 21:47:51,231: /listener_2427_1682084862584I heard hello world 1682084871.23
+[rosout][INFO] 2023-04-21 21:47:51,331: /listener_2427_1682084862584I heard hello world 1682084871.33
+[rosout][INFO] 2023-04-21 21:47:51,431: /listener_2427_1682084862584I heard hello world 1682084871.43
+[rosout][INFO] 2023-04-21 21:47:51,531: /listener_2427_1682084862584I heard hello world 1682084871.53
+[rosout][INFO] 2023-04-21 21:47:51,631: /listener_2427_1682084862584I heard hello world 1682084871.63
+[rosout][INFO] 2023-04-21 21:47:51,731: /listener_2427_1682084862584I heard hello world 1682084871.73
+[rosout][INFO] 2023-04-21 21:47:51,831: /listener_2427_1682084862584I heard hello world 1682084871.83
+[rosout][INFO] 2023-04-21 21:47:51,931: /listener_2427_1682084862584I heard hello world 1682084871.93
+[rosout][INFO] 2023-04-21 21:47:52,032: /listener_2427_1682084862584I heard hello world 1682084872.03
+[rosout][INFO] 2023-04-21 21:47:52,131: /listener_2427_1682084862584I heard hello world 1682084872.13
+[rosout][INFO] 2023-04-21 21:47:52,231: /listener_2427_1682084862584I heard hello world 1682084872.23
+[rosout][INFO] 2023-04-21 21:47:52,331: /listener_2427_1682084862584I heard hello world 1682084872.33
+[rosout][INFO] 2023-04-21 21:47:52,432: /listener_2427_1682084862584I heard hello world 1682084872.43
+[rosout][INFO] 2023-04-21 21:47:52,532: /listener_2427_1682084862584I heard hello world 1682084872.53
+[rosout][INFO] 2023-04-21 21:47:52,632: /listener_2427_1682084862584I heard hello world 1682084872.63
+[rosout][INFO] 2023-04-21 21:47:52,731: /listener_2427_1682084862584I heard hello world 1682084872.73
+[rosout][INFO] 2023-04-21 21:47:52,831: /listener_2427_1682084862584I heard hello world 1682084872.83
+[rosout][INFO] 2023-04-21 21:47:52,931: /listener_2427_1682084862584I heard hello world 1682084872.93
+[rosout][INFO] 2023-04-21 21:47:53,032: /listener_2427_1682084862584I heard hello world 1682084873.03
+[rosout][INFO] 2023-04-21 21:47:53,132: /listener_2427_1682084862584I heard hello world 1682084873.13
+[rosout][INFO] 2023-04-21 21:47:53,232: /listener_2427_1682084862584I heard hello world 1682084873.23
+[rosout][INFO] 2023-04-21 21:47:53,331: /listener_2427_1682084862584I heard hello world 1682084873.33
+[rosout][INFO] 2023-04-21 21:47:53,432: /listener_2427_1682084862584I heard hello world 1682084873.43
+[rosout][INFO] 2023-04-21 21:47:53,532: /listener_2427_1682084862584I heard hello world 1682084873.53
+[rosout][INFO] 2023-04-21 21:47:53,631: /listener_2427_1682084862584I heard hello world 1682084873.63
+[rosout][INFO] 2023-04-21 21:47:53,734: /listener_2427_1682084862584I heard hello world 1682084873.73
+[rosout][INFO] 2023-04-21 21:47:53,831: /listener_2427_1682084862584I heard hello world 1682084873.83
+[rosout][INFO] 2023-04-21 21:47:53,932: /listener_2427_1682084862584I heard hello world 1682084873.93
+[rosout][INFO] 2023-04-21 21:47:54,032: /listener_2427_1682084862584I heard hello world 1682084874.03
+[rosout][INFO] 2023-04-21 21:47:54,132: /listener_2427_1682084862584I heard hello world 1682084874.13
+[rosout][INFO] 2023-04-21 21:47:54,232: /listener_2427_1682084862584I heard hello world 1682084874.23
+[rosout][INFO] 2023-04-21 21:47:54,332: /listener_2427_1682084862584I heard hello world 1682084874.33
+[rosout][INFO] 2023-04-21 21:47:54,432: /listener_2427_1682084862584I heard hello world 1682084874.43
+[rosout][INFO] 2023-04-21 21:47:54,532: /listener_2427_1682084862584I heard hello world 1682084874.53
+[rosout][INFO] 2023-04-21 21:47:54,632: /listener_2427_1682084862584I heard hello world 1682084874.63
+[rosout][INFO] 2023-04-21 21:47:54,732: /listener_2427_1682084862584I heard hello world 1682084874.73
+[rosout][INFO] 2023-04-21 21:47:54,832: /listener_2427_1682084862584I heard hello world 1682084874.83
+[rosout][INFO] 2023-04-21 21:47:54,932: /listener_2427_1682084862584I heard hello world 1682084874.93
+[rosout][INFO] 2023-04-21 21:47:55,032: /listener_2427_1682084862584I heard hello world 1682084875.03
+[rosout][INFO] 2023-04-21 21:47:55,132: /listener_2427_1682084862584I heard hello world 1682084875.13
+[rosout][INFO] 2023-04-21 21:47:55,232: /listener_2427_1682084862584I heard hello world 1682084875.23
+[rosout][INFO] 2023-04-21 21:47:55,331: /listener_2427_1682084862584I heard hello world 1682084875.33
+[rosout][INFO] 2023-04-21 21:47:55,432: /listener_2427_1682084862584I heard hello world 1682084875.43
+[rosout][INFO] 2023-04-21 21:47:55,532: /listener_2427_1682084862584I heard hello world 1682084875.53
+[rosout][INFO] 2023-04-21 21:47:55,632: /listener_2427_1682084862584I heard hello world 1682084875.63
+[rosout][INFO] 2023-04-21 21:47:55,731: /listener_2427_1682084862584I heard hello world 1682084875.73
+[rosout][INFO] 2023-04-21 21:47:55,832: /listener_2427_1682084862584I heard hello world 1682084875.83
+[rosout][INFO] 2023-04-21 21:47:55,932: /listener_2427_1682084862584I heard hello world 1682084875.93
+[rosout][INFO] 2023-04-21 21:47:56,032: /listener_2427_1682084862584I heard hello world 1682084876.03
+[rosout][INFO] 2023-04-21 21:47:56,132: /listener_2427_1682084862584I heard hello world 1682084876.13
+[rosout][INFO] 2023-04-21 21:47:56,231: /listener_2427_1682084862584I heard hello world 1682084876.23
+[rosout][INFO] 2023-04-21 21:47:56,331: /listener_2427_1682084862584I heard hello world 1682084876.33
+[rosout][INFO] 2023-04-21 21:47:56,431: /listener_2427_1682084862584I heard hello world 1682084876.43
+[rosout][INFO] 2023-04-21 21:47:56,532: /listener_2427_1682084862584I heard hello world 1682084876.53
+[rosout][INFO] 2023-04-21 21:47:56,631: /listener_2427_1682084862584I heard hello world 1682084876.63
+[rosout][INFO] 2023-04-21 21:47:56,731: /listener_2427_1682084862584I heard hello world 1682084876.73
+[rosout][INFO] 2023-04-21 21:47:56,831: /listener_2427_1682084862584I heard hello world 1682084876.83
+[rosout][INFO] 2023-04-21 21:47:56,931: /listener_2427_1682084862584I heard hello world 1682084876.93
+[rosout][INFO] 2023-04-21 21:47:57,032: /listener_2427_1682084862584I heard hello world 1682084877.03
+[rosout][INFO] 2023-04-21 21:47:57,131: /listener_2427_1682084862584I heard hello world 1682084877.13
+[rosout][INFO] 2023-04-21 21:47:57,232: /listener_2427_1682084862584I heard hello world 1682084877.23
+[rosout][INFO] 2023-04-21 21:47:57,331: /listener_2427_1682084862584I heard hello world 1682084877.33
+[rosout][INFO] 2023-04-21 21:47:57,431: /listener_2427_1682084862584I heard hello world 1682084877.43
+[rosout][INFO] 2023-04-21 21:47:57,532: /listener_2427_1682084862584I heard hello world 1682084877.53
+[rosout][INFO] 2023-04-21 21:47:57,631: /listener_2427_1682084862584I heard hello world 1682084877.63
+[rosout][INFO] 2023-04-21 21:47:57,731: /listener_2427_1682084862584I heard hello world 1682084877.73
+[rosout][INFO] 2023-04-21 21:47:57,831: /listener_2427_1682084862584I heard hello world 1682084877.83
+[rosout][INFO] 2023-04-21 21:47:57,932: /listener_2427_1682084862584I heard hello world 1682084877.93
+[rosout][INFO] 2023-04-21 21:47:58,031: /listener_2427_1682084862584I heard hello world 1682084878.03
+[rosout][INFO] 2023-04-21 21:47:58,131: /listener_2427_1682084862584I heard hello world 1682084878.13
+[rosout][INFO] 2023-04-21 21:47:58,231: /listener_2427_1682084862584I heard hello world 1682084878.23
+[rosout][INFO] 2023-04-21 21:47:58,331: /listener_2427_1682084862584I heard hello world 1682084878.33
+[rosout][INFO] 2023-04-21 21:47:58,431: /listener_2427_1682084862584I heard hello world 1682084878.43
+[rosout][INFO] 2023-04-21 21:47:58,531: /listener_2427_1682084862584I heard hello world 1682084878.53
+[rosout][INFO] 2023-04-21 21:47:58,631: /listener_2427_1682084862584I heard hello world 1682084878.63
+[rosout][INFO] 2023-04-21 21:47:58,735: /listener_2427_1682084862584I heard hello world 1682084878.73
+[rosout][INFO] 2023-04-21 21:47:58,831: /listener_2427_1682084862584I heard hello world 1682084878.83
+[rosout][INFO] 2023-04-21 21:47:58,931: /listener_2427_1682084862584I heard hello world 1682084878.93
+[rosout][INFO] 2023-04-21 21:47:59,031: /listener_2427_1682084862584I heard hello world 1682084879.03
+[rosout][INFO] 2023-04-21 21:47:59,131: /listener_2427_1682084862584I heard hello world 1682084879.13
+[rosout][INFO] 2023-04-21 21:47:59,231: /listener_2427_1682084862584I heard hello world 1682084879.23
+[rosout][INFO] 2023-04-21 21:47:59,331: /listener_2427_1682084862584I heard hello world 1682084879.33
+[rosout][INFO] 2023-04-21 21:47:59,431: /listener_2427_1682084862584I heard hello world 1682084879.43
+[rosout][INFO] 2023-04-21 21:47:59,531: /listener_2427_1682084862584I heard hello world 1682084879.53
+[rosout][INFO] 2023-04-21 21:47:59,631: /listener_2427_1682084862584I heard hello world 1682084879.63
+[rosout][INFO] 2023-04-21 21:47:59,731: /listener_2427_1682084862584I heard hello world 1682084879.73
+[rosout][INFO] 2023-04-21 21:47:59,831: /listener_2427_1682084862584I heard hello world 1682084879.83
+[rosout][INFO] 2023-04-21 21:47:59,931: /listener_2427_1682084862584I heard hello world 1682084879.93
+[rosout][INFO] 2023-04-21 21:48:00,031: /listener_2427_1682084862584I heard hello world 1682084880.03
+[rosout][INFO] 2023-04-21 21:48:00,131: /listener_2427_1682084862584I heard hello world 1682084880.13
+[rosout][INFO] 2023-04-21 21:48:00,232: /listener_2427_1682084862584I heard hello world 1682084880.23
+[rosout][INFO] 2023-04-21 21:48:00,332: /listener_2427_1682084862584I heard hello world 1682084880.33
+[rosout][INFO] 2023-04-21 21:48:00,431: /listener_2427_1682084862584I heard hello world 1682084880.43
+[rosout][INFO] 2023-04-21 21:48:00,531: /listener_2427_1682084862584I heard hello world 1682084880.53
+[rosout][INFO] 2023-04-21 21:48:00,631: /listener_2427_1682084862584I heard hello world 1682084880.63
+[rosout][INFO] 2023-04-21 21:48:00,731: /listener_2427_1682084862584I heard hello world 1682084880.73
+[rosout][INFO] 2023-04-21 21:48:00,831: /listener_2427_1682084862584I heard hello world 1682084880.83
+[rosout][INFO] 2023-04-21 21:48:00,931: /listener_2427_1682084862584I heard hello world 1682084880.93
+[rosout][INFO] 2023-04-21 21:48:01,032: /listener_2427_1682084862584I heard hello world 1682084881.03
+[rosout][INFO] 2023-04-21 21:48:01,132: /listener_2427_1682084862584I heard hello world 1682084881.13
+[rosout][INFO] 2023-04-21 21:48:01,231: /listener_2427_1682084862584I heard hello world 1682084881.23
+[rospy.internal][ERROR] 2023-04-21 21:48:01,282: Unable to initiate TCP/IP socket to localhost:38523 (http://localhost:34441/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 557, in connect
+    self.read_header()
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 650, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 593, in _validate_header
+    raise TransportInitError("remote error reported: %s"%header['error'])
+TransportInitError: remote error reported: node shutting down
+
+[rospy.internal][WARNING] 2023-04-21 21:48:02,288: Unknown error initiating TCP/IP socket to localhost:38523 (http://localhost:34441/): Traceback (most recent call last):
+  File "/opt/ros/kinetic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 555, in connect
+    self.socket.connect((dest_addr, dest_port))
+  File "/usr/lib/python2.7/socket.py", line 228, in meth
+    return getattr(self._sock,name)(*args)
+error: [Errno 111] Connection refused
+
+[rospy.internal][INFO] 2023-04-21 21:48:02,289: topic[/chatter] removing connection to http://localhost:34441/
+[rospy.core][INFO] 2023-04-21 21:48:09,213: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-21 21:48:09,244: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-21 21:48:09,246: signal-2
+[rospy.core][INFO] 2023-04-21 21:48:09,863: signal_shutdown [atexit]

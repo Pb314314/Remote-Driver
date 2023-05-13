@@ -1,0 +1,48 @@
+[rospy.client][INFO] 2023-04-27 22:05:32,064: init_node, name[/op_receiver], pid[3470]
+[xmlrpc][INFO] 2023-04-27 22:05:32,065: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-27 22:05:32,067: Started XML-RPC server [http://localhost:38683/]
+[rospy.init][INFO] 2023-04-27 22:05:32,068: ROS Slave URI: [http://localhost:38683/]
+[rospy.impl.masterslave][INFO] 2023-04-27 22:05:32,068: _ready: http://localhost:38683/
+[rospy.registration][INFO] 2023-04-27 22:05:32,071: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-27 22:05:32,071: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-27 22:05:32,169: registered with master
+[rospy.rosout][INFO] 2023-04-27 22:05:32,170: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-27 22:05:32,180: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-27 22:05:32,186: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-27 22:05:32,471: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2023-04-27 22:05:37,805: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-27 22:05:37,831: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-27 22:05:37,834: signal-2
+[rospy.core][INFO] 2023-04-27 22:05:37,952: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-27 22:06:00,417: init_node, name[/op_receiver], pid[3493]
+[xmlrpc][INFO] 2023-04-27 22:06:00,419: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-27 22:06:00,420: Started XML-RPC server [http://localhost:43533/]
+[rospy.init][INFO] 2023-04-27 22:06:00,421: ROS Slave URI: [http://localhost:43533/]
+[rospy.impl.masterslave][INFO] 2023-04-27 22:06:00,421: _ready: http://localhost:43533/
+[rospy.registration][INFO] 2023-04-27 22:06:00,424: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-27 22:06:00,425: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-27 22:06:00,522: registered with master
+[rospy.rosout][INFO] 2023-04-27 22:06:00,523: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-27 22:06:00,537: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-27 22:06:00,545: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-27 22:06:00,741: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2023-04-27 22:06:03,344: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-27 22:06:03,371: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-27 22:06:03,374: signal-2
+[rospy.core][INFO] 2023-04-27 22:06:03,508: signal_shutdown [atexit]
+[rospy.client][INFO] 2023-04-27 22:06:30,153: init_node, name[/op_receiver], pid[3514]
+[xmlrpc][INFO] 2023-04-27 22:06:30,154: XML-RPC server binding to 127.0.0.1:0
+[xmlrpc][INFO] 2023-04-27 22:06:30,156: Started XML-RPC server [http://localhost:39781/]
+[rospy.init][INFO] 2023-04-27 22:06:30,157: ROS Slave URI: [http://localhost:39781/]
+[rospy.impl.masterslave][INFO] 2023-04-27 22:06:30,157: _ready: http://localhost:39781/
+[rospy.registration][INFO] 2023-04-27 22:06:30,161: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2023-04-27 22:06:30,161: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2023-04-27 22:06:30,258: registered with master
+[rospy.rosout][INFO] 2023-04-27 22:06:30,259: initializing /rosout core topic
+[rospy.rosout][INFO] 2023-04-27 22:06:30,271: connected to core topic /rosout
+[rospy.simtime][INFO] 2023-04-27 22:06:30,280: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2023-04-27 22:06:30,513: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.core][INFO] 2023-04-27 22:06:32,038: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2023-04-27 22:06:32,072: topic[/rosout] removing connection to /rosout
+[rospy.impl.masterslave][INFO] 2023-04-27 22:06:32,075: signal-2
+[rospy.core][INFO] 2023-04-27 22:06:32,180: signal_shutdown [atexit]
